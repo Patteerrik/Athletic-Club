@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 
 * {
     padding: 0;
@@ -10,12 +12,18 @@ body {
     flex-direction:column;
     display: flex;
     min-height: 100vh;
+    font-family: "Oswald", sans-serif;
     
     
 }
 header {
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.575);
     font-size: x-large;
+    color: black;
+
+}
+#header {
+    color: black;
 }
 
 main {
@@ -36,15 +44,20 @@ h3, p {
 footer {
     background-color: coral;
     text-align: center;
-    padding: 1em;
-    
-    
+    padding: 1em;    
 
 }
 
 section {
     display: flex;
     
-    
+}
+
+a {
+    text-align: center;
+
+}
+
+.socials {
     
 }
