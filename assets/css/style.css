@@ -18,14 +18,24 @@ header {
 }
 
 main {
-    background-color: blueviolet;
+    background-color: rgb(43, 208, 226);
     text-align: center;
     flex: 1 0 auto;
 }
 
+h3, p {
+    background-color: rgb(43, 208, 226);
+}
+
+#reasons {
+    background-color: cornflowerblue;
+} 
+
+
 footer {
     background-color: coral;
     text-align: center;
+    padding: 1em;
     
     
 
