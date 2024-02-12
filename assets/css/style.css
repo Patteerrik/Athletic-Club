@@ -6,15 +6,27 @@
     box-sizing: border-box;
 }
 
+body {
+    flex-direction:column;
+    
+}
 header {
     background-color: blue;
 }
 
 main {
     background-color: blueviolet;
+    text-align: center;
 }
 
 footer {
     background-color: coral;
-    
+    text-align: center;
+
+}
+
+section {
+    display: flex;
+    text-align: center;
+    align-self: center;
 }
