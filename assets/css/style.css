@@ -24,6 +24,8 @@ header {
     background-color: white;
     display: flex;
     align-items: baseline;
+    box-shadow: 0 2px 2px;
+    
 
     
     
@@ -38,7 +40,6 @@ h1 {
     color: rgba(57, 56, 56, 0.997);
     letter-spacing: 2px;
     text-transform: uppercase;
-    
     text-decoration: none;
 
 
@@ -51,7 +52,7 @@ nav {
     display: none;
     top: 100%;
     background-color: white;
-    top: 100%;
+    
 
     
 }
@@ -75,6 +76,7 @@ main {
     background-color: rgb(43, 208, 226);
     flex: 1 0 auto;
     width: 100%;
+    margin-top: 50px;
 
 
 }
