@@ -19,18 +19,26 @@ body {
 }
 
 header {
-    background-color: white
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: baseline;
+
+    
+    
 }
 
 header a {
     text-decoration: none;
+    
 }
 
 h1 {
     color: rgba(57, 56, 56, 0.997);
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-size: 80px;
+    
     text-decoration: none;
 
 
@@ -38,11 +46,33 @@ h1 {
 
 }
 
+nav {
+    position: absolute;
+    display: none;
+    top: 100%;
+    background-color: white;
+    top: 100%;
+
+    
+}
+
+#nav:checked~nav {
+    display: block;
+}
+
+#nav {
+    display: none;
+
+}
+
+.navclass {
+    font-size:  2rem;
+}
+
 
 
 main {
     background-color: rgb(43, 208, 226);
-    text-align: center;
     flex: 1 0 auto;
     width: 100%;
 
@@ -73,13 +103,10 @@ p {
 
 footer {
     background-color: coral;
-    text-align: center;
-    padding: 1em;
-    border: 1px solid
-}
+    
 
 section {
-    display: flex;
+    
 
 }
 
