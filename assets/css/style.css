@@ -52,6 +52,7 @@ nav {
     display: none;
     top: 100%;
     background-color: white;
+    width: 100%;
     
 
     
@@ -81,14 +82,10 @@ main {
 
 }
 
-#main {
-    font-size: x-large;
+.menu {
 
 }
 
-.main {
-    width: auto;
-}
 
 h3,
 p {
@@ -104,69 +101,45 @@ p {
 
 
 footer {
-    background-color: coral;
+    background-color: coral;}
+
+    @media screen and (min-width: 768px) {
+    
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        
+        padding-left: 280px;
+        height: fit-content;
+        
+        
+        
+        }
+   
+
+    #home {
+        display: flex;
+        
+
+    }
+
+    .navclass {
+        display: none;
+    }
+
+    ul, li {
+        list-style: none;
+        margin: 5px;
+    }    
+    }
+
+
+
     
 
-section {
-    
-
-}
-
-a {
-    text-align: center;
-
-}
-
-.socials {
-    width: 250px;
-    font-size: large;
-    padding-left: 20%;
 
 
-}
-
-.dropdown button {
-    background-color: rgb(233, 233, 235);
-    font-size: 25px;
-    letter-spacing: 1px;
-    text-align: right;
-    position: absolute;
-    background-color: white;
-    box-shadow: 2px 2px;
-    width: 100%;
-    left: 0;
-    display: none;
-    
-
-}
-
-.dropdown a {
-    display: block;
-    text-decoration: none;
-    padding: 5px;
-    color: black;
-    font-size: 25px;
-    letter-spacing: 1px;
-}
-
-.dropdown .button {
-    background-color: rgb(233, 233, 235);
-    position: absolute;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.825);
-    display: none;
-}
-
-.dropdown:hover .button {
-    display: block;
 
 
-}
 
-.dropdown a:hover {
-    background-color: white;
-}
-
-.dropdown {
-    display: inline-block;
-    
-}
