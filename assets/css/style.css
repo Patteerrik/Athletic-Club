@@ -24,7 +24,9 @@ header {
     background-color: white;
     display: flex;
     align-items: baseline;
-    box-shadow: 0 2px 2px;
+    box-shadow: 0 1px 1px;
+    justify-content: space-between;
+    align-items: center;
 
 
 
@@ -34,6 +36,8 @@ header {
 header a {
     text-decoration: none;
 
+
+
 }
 
 h1 {
@@ -41,6 +45,7 @@ h1 {
     letter-spacing: 2px;
     text-transform: uppercase;
     text-decoration: none;
+
 
 
 
@@ -70,9 +75,14 @@ nav {
 .navclass {
     font-size: 2rem;
     padding-left: 30px;
+    padding-right: 10px
 }
 
-
+.home {
+    text-align: end;
+    margin-right: 3px;
+    display: grid
+}
 
 main {
     background-color: rgb(43, 208, 226);
@@ -83,7 +93,6 @@ main {
 
 }
 
-.menu {}
 
 
 h3,
@@ -103,6 +112,10 @@ footer {
     background-color: coral;
 }
 
+#footer {
+    background-color: coral;
+}
+
 @media screen and (min-width: 768px) {
 
     nav {
@@ -117,10 +130,11 @@ footer {
     }
 
 
-    #home {
-        display: flex;
-        
 
+
+    .home a {
+        letter-spacing: 1px;
+        display: flex;
 
     }
 
@@ -128,9 +142,8 @@ footer {
         display: none;
     }
 
-    ul,
-    li {
-        font-size: 1.5rem;
+    ul a {
+        font: size 1.5em;
         list-style: none;
         margin: 5px;
 
@@ -147,6 +160,33 @@ footer {
 @media screen and (min-width: 992px) {
 
 
-   
-  
+    #title {
+        font-size: 4rem;
+        margin-left: 10px;
+
+
+    }
+
+    .home {
+        display: flex
+    }
+
+    .home a {
+        font-size: 2rem;
+        margin-right: 40px;
+    }
+
+    main {
+        margin-top: 95px;
+
+    }
+
+    h2 {
+        margin-left: 10px;
+    }
+
+
+
+
+
 }
