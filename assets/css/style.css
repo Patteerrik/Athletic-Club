@@ -114,6 +114,7 @@ footer ul {
     justify-content:space-evenly;
     padding: 4px;
     list-style-type: none;
+}
 
 
 
@@ -166,18 +167,18 @@ footer ul {
 
     }
 
-    
-
-    footer a{
-
-        margin-left:8.5rem
+    footer {
+        font-size: 1.5rem;
     }
+ 
 
+    
     
 }
 
 @media screen and (min-width: 992px) {
 
+    
 
     #title {
         font-size: 4rem;
@@ -212,9 +213,10 @@ footer ul {
     main {
         font-size:1.5rem;
     }
-
-    footer a{
-        
-        margin: auto;
+    
+    footer {
+        padding:2px 2px 0 color:white;
+        font-size:2rem;
     }
+
 }
