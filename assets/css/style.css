@@ -108,19 +108,12 @@ p {
 
 
 
-footer {
-    background-color: rgba(163, 39, 39, 0.646);
-    max-width:100%;
-    font-size:1.1rem;
-    height:3rem;
-    
-}
-
-footer a{
-    margin-left:3.4rem;
-    font-size:1.5rem;
-    
-}
+footer ul {
+    text-align:center;
+    display:flex;
+    justify-content:space-evenly;
+    padding: 4px;
+    list-style-type: none;
 
 
 
@@ -138,6 +131,7 @@ footer a{
     }
     .home {
         display:flex;
+        
     }
 
 
@@ -167,14 +161,19 @@ footer a{
     }
 
     #title {
-        font-size: 2.1rem;
+        font-size: 2.4rem;
+        
 
     }
+
+    
 
     footer a{
-        margin:8rem;
-        margin-right:0.5rem
+
+        margin-left:8.5rem
     }
+
+    
 }
 
 @media screen and (min-width: 992px) {
@@ -210,5 +209,12 @@ footer a{
         text-decoration:underline;
     }
 
+    main {
+        font-size:1.5rem;
+    }
 
+    footer a{
+        
+        margin: auto;
+    }
 }
