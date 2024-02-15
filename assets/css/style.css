@@ -131,10 +131,13 @@ footer a{
         position: relative;
         width: fit-content;
         padding-left: 280px;
-        height: fit-content;
+        
 
 
 
+    }
+    .home {
+        display:flex;
     }
 
 
@@ -143,6 +146,8 @@ footer a{
     .home a {
         letter-spacing: 1px;
         display: flex;
+        font-size:  1.2rem;
+        
 
     }
 
@@ -154,6 +159,8 @@ footer a{
         font: size 1.5em;
         list-style: none;
         margin: 5px;
+        
+        
 
 
 
@@ -162,6 +169,11 @@ footer a{
     #title {
         font-size: 2.1rem;
 
+    }
+
+    footer a{
+        margin:8rem;
+        margin-right:0.5rem
     }
 }
 
