@@ -193,6 +193,7 @@ footer ul {
         letter-spacing: 1px;
         display: flex;
         font-size:  1.2rem;
+        margin-right:10px
         
 
     }
@@ -220,6 +221,9 @@ footer ul {
         margin-left:3px;
         margin-right:5px;
         margin:auto;
+        margin-left:10px;
+        margin-right:10px;
+ }
  }
 
     .confident {
@@ -229,7 +233,10 @@ footer ul {
         margin-left:3px;
         margin-right:5px;
         margin:auto;
+        margin-left:10px;
+        margin-right:10px;
  }
+ 
 
      .health {
      font-size:18px;
