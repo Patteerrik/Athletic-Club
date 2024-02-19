@@ -150,11 +150,16 @@ p {
 footer ul {
     text-align:center;
     display:flex;
+    font-size:rem;
     justify-content:space-evenly;
     padding: 4px;
     list-style-type: none;
 }
 
+
+footer ul li a {
+    font-size:2rem;
+}
 
 #background {
     margin-top:90px;
@@ -162,6 +167,7 @@ footer ul {
     margin-left:4px;
     line-height:60px;
 }
+
 
 @media screen and (min-width: 768px) {
     nav {
@@ -322,6 +328,7 @@ footer ul {
     }
     img {
         height:60vh;
+        object-fit: cover;
 }
     main {
         margin-top: 95px;
