@@ -20,8 +20,8 @@ body {
 }
 
 #title {
-    font-size:1.6rem;
-    margin-left:5px;
+    font-size: 1.6rem;
+    margin-left: 5px;
 }
 
 
@@ -95,47 +95,47 @@ main {
     background-color: white;
     flex: 1 0 auto;
     width: 100%;
-    
-    text-align:center;
-    font-size:1.2rem;
-    
-    
+
+    text-align: center;
+    font-size: 1.2rem;
+
+
 
 
 }
 
 
 .mood {
-    font-size:13px;
-        width:fit-content;
-        line-height:20px;
-        margin-left:3px;
-        margin-right:5px;
- }
- 
- .confident {
-     font-size:13px;
-        width:fit-content;
-        line-height:20px;
-        margin-left:3px;
-        margin-right:5px;
- }
- 
- .health {
-     font-size:13px;
-        width:fit-content;
-        line-height:20px;
-        margin-left:3px;
-        margin-right:5px;
- }
- 
- .strong {
-       font-size:13px;
-        width:fit-content;
-        line-height:20px;
-        margin-left:3px;
-        margin-right:5px;
- }
+    font-size: 13px;
+    width: fit-content;
+    line-height: 20px;
+    margin-left: 3px;
+    margin-right: 5px;
+}
+
+.confident {
+    font-size: 13px;
+    width: fit-content;
+    line-height: 20px;
+    margin-left: 3px;
+    margin-right: 5px;
+}
+
+.health {
+    font-size: 13px;
+    width: fit-content;
+    line-height: 20px;
+    margin-left: 3px;
+    margin-right: 5px;
+}
+
+.strong {
+    font-size: 13px;
+    width: fit-content;
+    line-height: 20px;
+    margin-left: 3px;
+    margin-right: 5px;
+}
 
 h3,
 p {
@@ -148,24 +148,24 @@ p {
 
 
 footer ul {
-    text-align:center;
-    display:flex;
-    font-size:rem;
-    justify-content:space-evenly;
+    text-align: center;
+    display: flex;
+    font-size: rem;
+    justify-content: space-evenly;
     padding: 4px;
     list-style-type: none;
 }
 
 
 footer ul li a {
-    font-size:2rem;
+    font-size: 2rem;
 }
 
 #background {
-    margin-top:90px;
-    list-style-type:none;
-    margin-left:4px;
-    line-height:60px;
+    margin-top: 90px;
+    list-style-type: none;
+    margin-left: 4px;
+    line-height: 60px;
 }
 
 
@@ -173,17 +173,20 @@ footer ul li a {
 /* About page */
 
 #about {
-    font-size:1rem;
-    
-    
-    
+    font-size: 1.2rem;
+    padding:1rem;
+
+
+
 }
 
-#about p {
-    text-align:center;
-    padding:10px;
-    margin-left:2px;
-    width:100%;
+.info {
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+    margin-left: 2px;
+    width: 100%;
+    line-height: 2rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -192,21 +195,21 @@ footer ul li a {
         position: relative;
         width: fit-content;
         padding-left: 280px;
-        
+
 
 
 
     }
 
     img {
-        height:40vh
+        height: 40vh
     }
 
 
     .home {
-        display:flex;
-        font-size:1.2rem;
-        
+        display: flex;
+        font-size: 1.2rem;
+
     }
 
 
@@ -215,14 +218,12 @@ footer ul li a {
     .home a {
         letter-spacing: 1px;
         display: flex;
-        font-size:  1.rem;
-        margin-right:10px
-        
-
+        font-size: 1.rem;
+        margin-right: 10px
     }
 
     footer ul li a {
-        font-size:2rem;
+        font-size: 2rem;
     }
 
     .navclass {
@@ -233,126 +234,125 @@ footer ul li a {
         font-size: 1.5rem;
         list-style: none;
         margin: 5px;
-        color:rgb(62 58 58 / 97%);
-        margin-top:120px;
-        
-        
-        
-        
-        
+        color: rgb(62 58 58 / 97%);
+        margin-top: 120px;
+
+
+
+
+
 
 
 
     }
 
     .mood {
-    font-size:18px;
-        width:fit-content;
-        line-height:20px;
-        margin-left:3px;
-        margin-right:5px;
-        margin:auto;
-        padding:1rem;
-        font-size:1.2rem;
-        color:#6f6161;
-        text-align:center
-        
- }
- 
+        font-size: 18px;
+        width: fit-content;
+        line-height: 20px;
+        margin-left: 3px;
+        margin-right: 5px;
+        margin: auto;
+        padding: 1rem;
+        font-size: 1.2rem;
+        color: #6f6161;
+        text-align: center
+    }
+
 
     .confident {
-     font-size:18px;
-        width:fit-content;
-        line-height:20px;
-        margin-left:3px;
-        margin-right:5px;
-        margin:auto;
-        padding:1rem;
-        font-size:1.2rem;
-        color:#6f6161;
-        text-align:center
-        
-        
- }
- 
+        font-size: 18px;
+        width: fit-content;
+        line-height: 20px;
+        margin-left: 3px;
+        margin-right: 5px;
+        margin: auto;
+        padding: 1rem;
+        font-size: 1.2rem;
+        color: #6f6161;
+        text-align: center
+    }
 
-     .health {
-    font-size:18px;
-        width:fit-content;
-        line-height:20px;
-        margin-left:3px;
-        margin-right:5px;
-        margin:auto;
-        padding:1rem;
-        font-size:1.2rem;
-        color:#6f6161;
-        text-align:center;
-        
- }
 
-     .strong {
-       font-size:18px;
-        width:fit-content;
-        line-height:20px;
-        margin-left:3px;
-        margin-right:5px;
-        margin:auto;
-        padding:1rem;
-        font-size:1.2rem;
-        color:#6f6161;
-        text-align:center
-        
- }
+    .health {
+        font-size: 18px;
+        width: fit-content;
+        line-height: 20px;
+        margin-left: 3px;
+        margin-right: 5px;
+        margin: auto;
+        padding: 1rem;
+        font-size: 1.2rem;
+        color: #6f6161;
+        text-align: center;
 
- 
+    }
+
+    .strong {
+        font-size: 18px;
+        width: fit-content;
+        line-height: 20px;
+        margin-left: 3px;
+        margin-right: 5px;
+        margin: auto;
+        padding: 1rem;
+        font-size: 1.2rem;
+        color: #6f6161;
+        text-align: center
+    }
+
+
 
 
     #title {
         font-size: 2.3rem;
-        margin-left:5px;
-        
+        margin-left: 5px;
+
 
     }
 
     footer ul li {
         font-size: 1rem;
     }
- 
 
-      /* About page */
- 
-      #about {
-        font-size:1.4rem;
-        
-        
-    }
 
-    #about h2{
-        font-size:1rem;
-        line-height:4rem;
-    }
-    #about p {
-        font-size:1.5rem;
-        
-        color:#313131e3;
-        
-        
-    }
+    /* About page */
 
-    #about em{
-        color:black;
-    }
-    
-    
-    
-    
-    
-    
+
+
+  
+
+
+
+   #about {
+    padding: 2rem;
+    font-size:2rem
+}
+
+.info {
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: #313131e3;
+    line-height: 4rem;
+    width: 100%;
+
+
+}
+
+.info em {
+    color: black;
+}
+
+
+
+
+
+
 }
 
 @media screen and (min-width: 992px) {
 
-    
+
 
     #title {
         font-size: 4rem;
@@ -370,10 +370,12 @@ footer ul li a {
         font-size: 2rem;
         margin-right: 40px;
     }
+
     img {
-        height:60vh;
+        height: 60vh;
         object-fit: cover;
-}
+    }
+
     main {
         margin-top: 95px;
 
@@ -382,139 +384,152 @@ footer ul li a {
     #background {
         font-size: 2rem;
         list-style: none;
-        
+
         margin: 5px;
-        color:rgb(62 58 58 / 97%)
-        
-        
-        
+        color: rgb(62 58 58 / 97%);
+
+
+
 
 
 
     }
-    .mood {
-        font-size:18px;
-            width:fit-content;
-            line-height:20px;
-            margin-left:3px;
-            margin-right:5px;
-            margin:auto;
-            padding:1rem;
-            font-size:1.5rem;
-            color:#6f6161;
-            text-align:center;
-            
-           
-     }
-    
-           .confident {
-         font-size:18px;
-            width:fit-content;
-            line-height:20px;
-            margin-left:3px;
-            margin-right:5px;
-            margin:auto;
-            padding:1rem;
-            font-size:1.5rem;
-            color:#6f6161;
-            text-align:center;
-            
-            
-     }
-     
-    
-         .health {
-        font-size:18px;
-            width:fit-content;
-            line-height:20px;
-            margin-left:3px;
-            margin-right:5px;
-            margin:auto;
-            padding:rem;
-            font-size:1.5rem;
-            color:#6f6161;
-            text-align:center;
-            
-     }
-    
-         .strong {
-           font-size:18px;
-            width:fit-content;
-            line-height:20px;
-            margin-left:3px;
-            margin-right:5px;
-            margin:auto;
-            padding:1rem;
-            font-size:1.5rem;
-            color:#6f6161;
-            text-align:center;
-            
-     }
-        
-       }
 
-       #better {
-        margin-top:-100px;
-       }
-        
-    
+    .mood {
+        font-size: 18px;
+        width: fit-content;
+        line-height: 20px;
+        margin-left: 3px;
+        margin-right: 5px;
+        margin: auto;
+        padding: 1rem;
+        font-size: 1.5rem;
+        color: #6f6161;
+        text-align: center;
+
+
+    }
+
+    .confident {
+        font-size: 18px;
+        width: fit-content;
+        line-height: 20px;
+        margin-left: 3px;
+        margin-right: 5px;
+        margin: auto;
+        padding: 1rem;
+        font-size: 1.5rem;
+        color: #6f6161;
+        text-align: center;
+
+
+    }
+
+
+    .health {
+        font-size: 18px;
+        width: fit-content;
+        line-height: 20px;
+        margin-left: 3px;
+        margin-right: 5px;
+        margin: auto;
+        padding: rem;
+        font-size: 1.5rem;
+        color: #6f6161;
+        text-align: center;
+
+    }
+
+    .strong {
+        font-size: 18px;
+        width: fit-content;
+        line-height: 20px;
+        margin-left: 3px;
+        margin-right: 5px;
+        margin: auto;
+        padding: 1rem;
+        font-size: 1.5rem;
+        color: #6f6161;
+        text-align: center;
+
+    }
+
+
+
+    #better {
+        margin-top: -100px;
+    }
+
+
 
     h2 {
         margin-left: 10px;
     }
 
 
-    .home a:hover{
-        text-decoration:underline;
+    .home a:hover {
+        text-decoration: underline;
     }
 
     main {
-        font-size:1.5rem;
+        font-size: 1.5rem;
     }
-    
-    footer {
 
-        
-    }
+
     footer ul a {
-        padding:2px 2px 0 color:white;
-        font-size:3.5rem;
+        padding: 2px 2px 0;
+        font-size: 3.5rem;
     }
-    
+
     /* About page */
- 
+
     #about {
-        font-size:2.5rem;
-        padding:3rem;
-    }
-
-    #about h2 {
-        font-size:3rem
-    }
-
-    #about p {
-        font-size: 2rem;
-        padding:2rem;
-        color:#313131e3;
-        line-height:3rem;
+        font-size: 2.5rem;
         
     }
 
-    #about em{
-        color:black;
+    .info {
+        font-size: 4rem;
+        
+        width: 100%;
     }
-    
+
 
 }
 
 @media screen and (min-width: 1200px) {
 
-    
+
+    /* About page */
 
 
 
 
 
 
-    
+    #about {
+        font-size: 3rem;
+        line-height: 1rem;
+        padding: 2rem;
+    }
+
+    .info {
+        font-size: 2.5rem;
+        padding: 2rem;
+        color: #313131e3;
+        line-height: 4rem;
+
+
+    }
+
+    .info em {
+        color: black;
+    }
+
+
+
+
+
+
+
 }
