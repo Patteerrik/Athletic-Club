@@ -162,7 +162,7 @@ footer ul li a {
 }
 
 #background {
-    margin-top: 90px;
+
     list-style-type: none;
     margin-left: 4px;
     line-height: 60px;
@@ -174,7 +174,8 @@ footer ul li a {
 
 #about {
     font-size: 1.2rem;
-    padding:1rem;
+    padding: 1rem;
+    margin-top: 1rem;
 
 
 
@@ -188,6 +189,40 @@ footer ul li a {
     width: 100%;
     line-height: 2rem;
 }
+
+
+
+
+/* Member page */
+
+#become {
+    margin-top: 4rem;
+}
+
+input {
+    display: flex;
+    padding: 2px;
+    border-radius: 1px;
+    margin: auto;
+
+}
+
+#label {
+    font-size: 1.5rem;
+}
+
+.submit {
+    background-color: #8080803b
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    border-radius: 1px;
+    font-size: 15px;
+}
+
+
 
 @media screen and (min-width: 768px) {
     nav {
@@ -235,7 +270,7 @@ footer ul li a {
         list-style: none;
         margin: 5px;
         color: rgb(62 58 58 / 97%);
-        margin-top: 120px;
+
 
 
 
@@ -320,35 +355,37 @@ footer ul li a {
 
 
 
-  
 
 
 
-   #about {
-    padding: 2rem;
-    font-size:2rem
+
+    #about {
+        padding: 2rem;
+        font-size: 2rem
+    }
+
+    .info {
+        font-size: 1.5rem;
+        padding: 1rem;
+        color: #313131e3;
+        line-height: 4rem;
+        width: 100%;
+
+
+    }
+
+    .info em {
+        color: black;
+    }
+
+
+
+
+
+
 }
 
-.info {
-    font-size: 1.5rem;
-    padding: 1rem;
-    color: #313131e3;
-    line-height: 4rem;
-    width: 100%;
-
-
-}
-
-.info em {
-    color: black;
-}
-
-
-
-
-
-
-}
+/* Member page */
 
 @media screen and (min-width: 992px) {
 
@@ -485,17 +522,19 @@ footer ul li a {
 
     #about {
         font-size: 2.5rem;
-        
+
     }
 
     .info {
         font-size: 4rem;
-        
+
         width: 100%;
     }
 
 
 }
+
+/* Member page */
 
 @media screen and (min-width: 1200px) {
 
@@ -533,3 +572,5 @@ footer ul li a {
 
 
 }
+
+/* Member page */
