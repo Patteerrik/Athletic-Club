@@ -750,3 +750,70 @@ input {
 
 
 }
+
+
+@media screen and (min-width: 2500px) {
+
+    #better {
+        font-size:34px
+    }
+    
+    
+    
+        .mood {
+            font-size: 30px;
+            width: fit-content;
+            line-height: 40px;
+            margin-left: 3px;
+            margin-right: 5px;
+            margin: auto;
+            padding: 2rem;
+            color: #6f6161;
+            text-align: center;
+    
+    
+        }
+    
+        .confident {
+            font-size: 30px;
+            width: fit-content;
+            line-height: 40px;
+            margin-left: 3px;
+            margin-right: 5px;
+            margin: auto;
+            padding: 2rem;
+            color: #6f6161;
+            text-align: center;
+    
+    
+        }
+    
+    
+        .health {
+            font-size: 30px;
+            width: fit-content;
+            line-height: 40px;
+            margin-left: 3px;
+            margin-right: 5px;
+            margin: auto;
+            padding: 2rem;
+            color: #6f6161;
+            text-align: center;
+    
+        }
+    
+        .strong {
+            font-size: 30px;
+            width: fit-content;
+            line-height: 40px;
+            margin-left: 3px;
+            margin-right: 5px;
+            margin: auto;
+            padding: 2rem;
+            color: #6f6161;
+            text-align: center;
+    
+        }
+    
+        
+    }
