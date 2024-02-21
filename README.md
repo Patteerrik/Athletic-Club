@@ -1,8 +1,8 @@
 #Title
 
-##The title is Athletic CLub
+# The title is Athletic Club
 
-Athletic Club is a gym site that provides membership. The site gives a brief explanation of what they offer. It aims to help potential members improve their physique.
+Athletic Club is a gym site that provides membership. The site gives the user a brief explanation of who they are and what they offer. It aims to help potential members improve their physique and overall health.
 
 ##Features
 
