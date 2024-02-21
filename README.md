@@ -5,15 +5,34 @@
 Athletic Club is a gym site that provides membership. The site gives the user a brief explanation of who they are and what they offer. It aims to help potential members improve their physique and overall health.
 ![Alt text](assets/images/readme-images/Am%20I%20Responsive%202.png)
 
-##Features
+## Features
 
-##Home page
+### Navigation bar 
 
-Navigation bar.
+![Alt text](assets/images/readme-images/Navigation%20bar%20(Readme).png)
 
-The site offers a userfriendly responsive navigation bar with direct links to all pages.
 
-Complete with links to header, home, about and sign up page. A dropdown menu appears on smaller devices (max-width 768px). 
+* The navigation is userfriendly and provides links to Home, Ispiration and Sign up pages.
+
+* It will be responisve on all devices. 
+
+* Clicking on the Home button will take the user to the main page.
+
+
+
+
+
+## Home page
+![Alt text](assets/images/readme-images/Home%20page%20(Readme).png)
+
+* The home page give the user a sense of joy and welcome which is the goal of the front page. A positive background combined with confidence-inspiring text.
+
+
+
+
+
+## Footer
+![Alt text](assets/images/readme-images/Footer%20(Readme).png)
 
 ##List of resons to start
 
