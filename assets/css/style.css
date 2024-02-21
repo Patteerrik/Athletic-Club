@@ -145,6 +145,8 @@ footer ul li a {
     font-size: 15px;
     text-align: center;
     padding: 10px;
+    padding-left: 10px;
+    padding-right:10px;
     margin-left: 2px;
     width: 100%;
     line-height: 2rem;
@@ -166,35 +168,43 @@ footer ul li a {
 
 
 .mood {
-    font-size: 13px;
+    font-size: 15px;
     width: fit-content;
     line-height: 20px;
     margin-left: 5px;
     margin-right: 5px;
+    padding-left: 10px;
+    padding-right:10px;
 }
 
 .confident {
-    font-size: 13px;
+    font-size: 15px;
     width: fit-content;
     line-height: 20px;
     margin-left: 5px;
     margin-right: 5px;
+    padding-left: 10px;
+    padding-right:10px;
 }
 
 .health {
-    font-size: 13px;
+    font-size: 15px;
     width: fit-content;
     line-height: 20px;
     margin-left: 5px;
     margin-right: 5px;
+    padding-left: 10px;
+    padding-right:10px;
 }
 
 .strong {
-    font-size: 13px;
+    font-size: 15px;
     width: fit-content;
     line-height: 20px;
     margin-left: 5px;
     margin-right: 5px;
+    padding-left: 10px;
+    padding-right:10px;
 }
 
 h3,
