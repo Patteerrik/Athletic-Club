@@ -3,6 +3,7 @@
 # The title is Athletic Club
 
 Athletic Club is a gym site that provides membership. The site gives the user a brief explanation of who they are and what they offer. It aims to help potential members improve their physique and overall health.
+![Alt text](assets/images/readme-images/Am%20I%20Responsive%202.png)
 
 ##Features
 
