@@ -69,6 +69,8 @@ nav {
     top: 100%;
     background-color: white;
     width: 100%;
+    padding-right:6px;
+    line-height:25px;
 
 
 
@@ -213,7 +215,7 @@ footer ul li a {
 /* Member page */
 
 #become {
-    margin-top: 3rem;
+    font-size:20px;
     color: rgba(57, 56, 56, 0.997);
     margin-left: 2px;
     margin-right: 2px;
@@ -225,16 +227,20 @@ input {
     padding: 4px;
     border-radius: 1px;
     margin: auto;
-    margin-top: 1rem;
+    
     width: 80%;
 
 
 
 }
 
+
+
 #label {
-    font-size: 20px;
+    font-size: 15px;
     color: rgba(57, 56, 56, 0.997);
+    
+    
 
 
 
@@ -242,6 +248,7 @@ input {
 
 .submit {
     background-color: white;
+    
 }
 
 .button {
@@ -251,13 +258,15 @@ input {
     font-size: 15px;
     margin-top: 1rem;
     font-weight: bold;
+    padding-left:10px;
+    
 
 }
 
 #question {
     height: 90px;
     width: 80%;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 
@@ -454,20 +463,24 @@ input {
 
     }
 
+    .signup {
+       line-height:20px;
+    }
+
     input {
         width: 300px;
     }
 
     #become {
-        font-size: 2rem;
+        font-size: 22px;
         margin-bottom: 3rem;
-        line-height: 4rem
+        line-height: 4rem;
     }
 
     #label {
 
-        font: size 20px;
-        ;
+        font-size: 18px;
+        line-height:30px;
 
     }
 
@@ -640,6 +653,10 @@ input {
         margin-top: 5rem;
     }
 
+    label {
+
+    }
+
 }
 
 
@@ -707,6 +724,7 @@ input {
 
     }
 
+   
 
     /* About page */
 
@@ -752,68 +770,3 @@ input {
 }
 
 
-@media screen and (min-width: 2500px) {
-
-    #better {
-        font-size:34px
-    }
-    
-    
-    
-        .mood {
-            font-size: 30px;
-            width: fit-content;
-            line-height: 40px;
-            margin-left: 3px;
-            margin-right: 5px;
-            margin: auto;
-            padding: 2rem;
-            color: #6f6161;
-            text-align: center;
-    
-    
-        }
-    
-        .confident {
-            font-size: 30px;
-            width: fit-content;
-            line-height: 40px;
-            margin-left: 3px;
-            margin-right: 5px;
-            margin: auto;
-            padding: 2rem;
-            color: #6f6161;
-            text-align: center;
-    
-    
-        }
-    
-    
-        .health {
-            font-size: 30px;
-            width: fit-content;
-            line-height: 40px;
-            margin-left: 3px;
-            margin-right: 5px;
-            margin: auto;
-            padding: 2rem;
-            color: #6f6161;
-            text-align: center;
-    
-        }
-    
-        .strong {
-            font-size: 30px;
-            width: fit-content;
-            line-height: 40px;
-            margin-left: 3px;
-            margin-right: 5px;
-            margin: auto;
-            padding: 2rem;
-            color: #6f6161;
-            text-align: center;
-    
-        }
-    
-        
-    }
