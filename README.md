@@ -54,8 +54,8 @@ Athletic Club is a gym site that provides membership. The site gives the user a 
 ![Alt text](assets/images/readme-images/Sign%20up%20page%20(Readme).png)
 
 * In this section the user can fill out a form to become a member.
-* The user can use the text are if have any questions.
-* Text area is the only one that is not required.
+* The user can use the text are if they have any questions.
+* Text "Questions area" is the only one that is not required.
 
 
 ###Existing Features
