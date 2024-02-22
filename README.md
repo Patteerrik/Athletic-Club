@@ -34,13 +34,17 @@ Athletic Club is a gym site that provides membership. The site gives the user a 
 ## Footer
 ![Alt text](assets/images/readme-images/Footer%20(Readme).png)
 
-##List of resons to start
+* The footer section includes links to social media sites that will open in an new tab.
+* This will give the user an easy way of following Athletic Club on different social media platforms.
+* The footer section is on all pages.
+
+
+
+
+## Inspiration page
+
 
 This section gives the pontential member several resons why they should start training.
-
-
-##About page
-
 This section gives a brief introduction on what kind of experience and education level Athletic club provides.
 
 
