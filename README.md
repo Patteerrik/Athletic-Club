@@ -42,15 +42,20 @@ Athletic Club is a gym site that provides membership. The site gives the user a 
 
 
 ## Inspiration page
+![Alt text](assets/images/readme-images/Inspiration%20page%20(Readme).png)
 
 
-This section gives the pontential member several resons why they should start training.
-This section gives a brief introduction on what kind of experience and education level Athletic club provides.
+
+* This section provides the user with several health benefits on why they should consider to start exercising
 
 
-##Sign up page
 
-In this section the user can fill out a form to become a member.
+## Sign up page
+![Alt text](assets/images/readme-images/Sign%20up%20page%20(Readme).png)
+
+* In this section the user can fill out a form to become a member.
+* The user can use the text are if have any questions.
+* Text area is the only one that is not required.
 
 
 ###Existing Features
