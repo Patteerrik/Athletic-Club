@@ -5,7 +5,12 @@
 Athletic Club is a gym site that provides membership. The site gives the user a brief explanation of who they are and what they offer. It aims to help potential members improve their physique and overall health.
 ![Alt text](assets/images/readme-images/Am%20I%20Responsive%202.png)
 
-## Features
+## Intro
+
+*This site is for anyone who wants to improve their well-being and overall physique.
+
+
+
 
 ### Navigation bar 
 
@@ -22,7 +27,7 @@ Athletic Club is a gym site that provides membership. The site gives the user a 
 
 
 
-## Home page
+### Home page
 ![Alt text](assets/images/readme-images/Home%20page%20(Readme).png)
 
 * The home page give the user a sense of joy and welcome which is the goal of the front page. A positive background combined with confidence-inspiring text.
@@ -31,7 +36,7 @@ Athletic Club is a gym site that provides membership. The site gives the user a 
 
 
 
-## Footer
+### Footer
 ![Alt text](assets/images/readme-images/Footer%20(Readme).png)
 
 * The footer section includes links to social media sites that will open in an new tab.
@@ -54,19 +59,28 @@ Athletic Club is a gym site that provides membership. The site gives the user a 
 ![Alt text](assets/images/readme-images/Sign%20up%20page%20(Readme).png)
 
 * In this section the user can fill out a form to become a member.
-* The user can use the text are if they have any questions.
+* The user can use the text area if they have any questions.
 * Text "Questions area" is the only one that is not required.
 
 
-###Existing Features
 
 
+## Existing Features
+
+* Navbar
+* Footer
+* Social media icons
+* Contact form
 
 ###Existing Feature Left To Implement
 
 
 
-##Manual Testing
+## Manual Testing
+
+
+*
+
 
 ##Validator testing
 
