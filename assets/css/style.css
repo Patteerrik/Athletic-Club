@@ -120,6 +120,8 @@ main {
 
 /* Footer */
 
+
+
 footer ul {
     text-align: center;
     display: flex;
@@ -224,7 +226,7 @@ p {
 #background {
 
     list-style-type: none;
-    margin-left: 4px;
+    
     line-height: 60px;
 }
 
@@ -274,7 +276,7 @@ input {
 
 .submit {
     background-color: white;
-
+    margin-top:5rem;
 }
 
 .button {
