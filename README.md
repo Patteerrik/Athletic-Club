@@ -82,12 +82,16 @@ Athletic Club is a gym site that provides membership. The site gives the user a 
 *
 
 
-##Validator testing
+## Validator testing
 
 
 
-##Deplyment
+## Lighthouse testing
 
 
 
-##Credits
+## Deployment
+
+
+
+## Credits
