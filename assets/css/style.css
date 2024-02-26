@@ -15,7 +15,7 @@ body {
     min-height: 100vh;
     font-family: "Oswald", sans-serif;
     width: 100%;
-
+    
 
 
 
@@ -95,6 +95,7 @@ nav {
     text-align: end;
     margin-right: 3px;
     display: grid;
+    list-style-type: none;
 }
 
 
@@ -249,6 +250,8 @@ p {
     margin-right: 2px;
 
 }
+/* Styling the sign up form */
+
 
 input {
     display: flex;
