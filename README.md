@@ -90,7 +90,8 @@ Athletic Club is a gym site that provides membership. The site gives the user a 
 
 ### HTML
 
-* 
+* Home page: 7 errors were found using [W3C VALIDATOR](https://validator.w3.org/)
+* Inpiration page: 
 
 
 ## Lighthouse testing
