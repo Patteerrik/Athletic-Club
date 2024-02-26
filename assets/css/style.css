@@ -88,13 +88,13 @@ nav {
 .navclass {
     font-size: 1.6rem;
     padding-left: 30px;
-    padding-right: 10px
+    padding-right: 10px;
 }
 
 .home {
     text-align: end;
     margin-right: 3px;
-    display: grid
+    display: grid;
 }
 
 
@@ -158,7 +158,7 @@ footer ul li a {
     margin-left: 2px;
     width: 100%;
     line-height: 2rem;
-    color: #000000
+    color: #000000;
 }
 
 .info em {
@@ -298,7 +298,7 @@ input {
 }
 
 
-
+/* For smaller to medium screen sizes from 768px width and up */
 
 @media screen and (min-width: 768px) {
 
@@ -345,15 +345,15 @@ input {
     .home a {
         letter-spacing: 1px;
         display: flex;
-        font-size: 1.rem;
-        margin-right: 10px
+        font-size: 1.2rem;
+        margin-right: 10px;
     }
 
     .navclass {
         display: none;
     }
 
-    /* Footer social media */
+    /* Footer */
 
     footer ul li a {
         font-size: 2rem;
@@ -365,18 +365,55 @@ input {
 
     /* Main div section */
 
+
+
+    /* Home page */
+
+
+
+
+
+
+
+    #about {
+        padding: 2rem;
+        font-size: 20px;
+    }
+
+    .info {
+        font-size: 18px;
+        width: fit-content;
+        line-height: 60px;
+        margin-left: 3px;
+        margin-right: 5px;
+        padding: 1rem;
+        font-size: 1.2rem;
+        color: #6f6161;
+        text-align: center;
+    }
+
+    .info em {
+        color: black;
+    }
+
+
+
+
+
+    .info em {
+        color: #1a0b94;
+    }
+
+
+
+
+    /* Inspiration page */
+
     #background {
         font-size: 1.5rem;
         list-style: none;
         
         color: rgb(62 58 58 / 97%);
-
-
-
-
-
-
-
 
 
     }
@@ -396,7 +433,7 @@ input {
         padding: 1rem;
         font-size: 1.2rem;
         color: #6f6161;
-        text-align: center
+        text-align: center;
     }
 
 
@@ -410,7 +447,7 @@ input {
         padding: 1rem;
         font-size: 1.2rem;
         color: #6f6161;
-        text-align: center
+        text-align: center;
     }
 
 
@@ -438,7 +475,7 @@ input {
         padding: 1rem;
         font-size: 1.2rem;
         color: #6f6161;
-        text-align: center
+        text-align: center;
     }
 
 
@@ -448,43 +485,7 @@ input {
 
 
 
-    /* Inspiration page */
-
-
-
-
-
-
-
-    #about {
-        padding: 2rem;
-        font-size: 20px;
-    }
-
-    .info {
-        font-size: 18px;
-        width: fit-content;
-        line-height: 60px;
-        margin-left: 3px;
-        margin-right: 5px;
-        padding: 1rem;
-        font-size: 1.2rem;
-        color: #6f6161;
-        text-align: center
-    }
-
-    .info em {
-        color: black;
-    }
-
-
-
-
-
-    .info em {
-        color: #1a0b94;
-    }
-
+    
 
 
     /* Sign up page */
@@ -536,6 +537,7 @@ input {
 
 
 }
+/* For medium screen sizes from 992px width and up */
 
 @media screen and (min-width: 992px) {
 
@@ -638,7 +640,7 @@ input {
         margin-left: 3px;
         margin-right: 5px;
         margin: auto;
-        padding: rem;
+        padding: 1rem;
         color: #6f6161;
         text-align: center;
 
@@ -674,7 +676,6 @@ input {
 
     .info {
         font-size: 20px;
-
         width: 100%;
     }
 
@@ -690,7 +691,7 @@ input {
 
 
 }
-
+/* For medium to larger screen sizes from 1200px width and up */
 
 @media screen and (min-width: 1200px) {
 
@@ -732,7 +733,7 @@ input {
    
 
 
-    /* About page */
+    /* Inspiration page */
 
 
     #better {
