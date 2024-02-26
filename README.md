@@ -60,7 +60,7 @@ Athletic Club is a gym site that provides membership. The site gives the user a 
 
 * In this section the user can fill out a form to become a member.
 * The user can use the text area if they have any questions.
-* Text "Questions area" is the only one that is not required.
+* "Questions and phone area" is the only ones that is not required.
 
 
 
@@ -86,12 +86,13 @@ Athletic Club is a gym site that provides membership. The site gives the user a 
 
 ### CSS
 
-*
+* 
 
 ### HTML
 
 * Home page: 7 errors were found using [W3C VALIDATOR](https://validator.w3.org/)
-* Inpiration page: 
+* Inpiration page: 12 errors were found using [W3C VALIDATOR](https://validator.w3.org/)
+* Sign up page: 12 error were found using [W3C VALIDATOR](https://validator.w3.org/)
 
 
 ## Lighthouse testing
