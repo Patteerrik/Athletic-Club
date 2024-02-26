@@ -169,12 +169,14 @@ footer ul li a {
 
 /* Inspiration page */
 
-
-h3 span{
-    padding:90px;
+div h3 {
+    text-align:center
     
     
 }
+
+
+
 
 #better {
     font-size: 15px;
@@ -229,7 +231,7 @@ h3,
 p {
     background-color: white;
     text-align: justify;
-    width: 400px;
+    width: auto;
 
 }
 
@@ -421,75 +423,59 @@ input {
 
     /* Inspiration page */
 
-    #background {
-        font-size: 1.5rem;
-        list-style: none;
+    div h3 {
+        text-align:center
         
-        color: rgb(62 58 58 / 97%);
-
-
+        
     }
-
-    #better {
-        color: black;
-        font-size: 20px;
-    }
-
-    .mood {
-        font-size: 18px;
-        width: fit-content;
-        line-height: 20px;
-        margin-left: 3px;
-        margin-right: 5px;
-        margin: auto;
-        padding: 1rem;
-        font-size: 1.2rem;
-        color: #6f6161;
-        text-align: center;
-    }
-
-
-    .confident {
-        font-size: 18px;
-        width: fit-content;
-        line-height: 20px;
-        margin-left: 3px;
-        margin-right: 5px;
-        margin: auto;
-        padding: 1rem;
-        font-size: 1.2rem;
-        color: #6f6161;
-        text-align: center;
-    }
-
-
-    .health {
-        font-size: 18px;
-        width: fit-content;
-        line-height: 20px;
-        margin-left: 3px;
-        margin-right: 5px;
-        margin: auto;
-        padding: 1rem;
-        font-size: 1.2rem;
-        color: #6f6161;
-        text-align: center;
-
-    }
-
-    .strong {
-        font-size: 18px;
-        width: fit-content;
-        line-height: 20px;
-        margin-left: 3px;
-        margin-right: 5px;
-        margin: auto;
-        padding: 1rem;
-        font-size: 1.2rem;
-        color: #6f6161;
-        text-align: center;
-    }
-
+ 
+     .mood {
+         
+         width: 70%;
+         line-height: 20px;
+         margin: auto;
+         padding: 1.5rem;
+         font-size: 1.3rem;
+         color: #6f6161;
+         text-align: center;
+     }
+ 
+ 
+     .confident {
+         
+         width: 80%;
+         line-height: 20px;
+         margin: auto;
+         padding: 1.5rem;
+         font-size: 1.3rem;
+         color: #6f6161;
+         text-align: center;
+     }
+ 
+ 
+     .health {
+         
+         width: 80%;
+         line-height: 20px;
+         margin: auto;
+         padding: 1.5rem;
+         font-size: 1.3rem;
+         color: #6f6161;
+         text-align: center;
+ 
+     }
+ 
+     .strong {
+         
+         width: 80%;
+         line-height: 20px;
+         margin: auto;
+         padding: 1.5rem;
+         font-size: 1.3rem;
+         color: #6f6161;
+         text-align: center;
+     }
+ 
 
 
 
@@ -590,29 +576,8 @@ input {
     /* Main content */
 
 
-    main {
-        margin-top: 95px;
-
-    }
-
-
-
-    #background {
-        font-size: 2rem;
-        list-style: none;
-
-        margin-top: -60px;
-        color: rgb(62 58 58 / 97%);
-
-
-
-
-
-
-    }
-
-    #better {
-        font-size: 22px;
+    section{
+        display:flex;
     }
 
 
@@ -721,18 +686,12 @@ input {
 
         color: #313131e3;
         line-height: 3rem;
-        padding-left: 10rem;
+        padding-left: rem;
         padding-right: 10rem;
 
     }
 
-    .info em {
-        color: black;
-    }
-
-
-
-
+    
 
 
 
@@ -745,69 +704,70 @@ input {
    
 
 
-    /* Inspiration page */
+/* Inspiration page */
 
 
-    #better {
-        font-size: 26px;
-        line-height: 40px;
-    }
+section {
+    display:flex;
+     margin:auto;
+     margin-left:8rem;
+}
 
 
-    .mood {
-        font-size: 24px;
-        width: fit-content;
-        line-height: 25px;
-        margin-left: 3px;
-        margin-right: 5px;
-        margin: auto;
-        padding: 1rem;
-        color: #6f6161;
-        text-align: center;
+.mood {
+    font-size: 24px;
+    width: 50%;
+    line-height: 25px;
+    
+    margin: auto;
+    padding: 1rem;
+    color: #6f6161;
+    text-align: center;
 
 
-    }
+}
 
-    .confident {
-        font-size: 24px;
-        width: fit-content;
-        line-height: 20px;
-        margin-left: 3px;
-        margin-right: 5px;
-        margin: auto;
-        padding: 1rem;
-        color: #6f6161;
-        text-align: center;
-
-
-    }
+.confident {
+    font-size: 24px;
+    width: 50%;
+    line-height: 20px;
+    padding-left:2rem;
+    margin: auto;
+    padding: 1rem;
+    color: #6f6161;
+    text-align: center;
 
 
-    .health {
-        font-size: 24px;
-        width: fit-content;
-        line-height: 20px;
-        margin-left: 3px;
-        margin-right: 5px;
-        margin: auto;
-        padding: rem;
-        color: #6f6161;
-        text-align: center;
+}
 
-    }
 
-    .strong {
-        font-size: 24px;
-        width: fit-content;
-        line-height: 20px;
-        margin-left: 3px;
-        margin-right: 5px;
-        margin: auto;
-        padding: 1rem;
-        color: #6f6161;
-        text-align: center;
+.health {
+    font-size: 24px;
+    width: 50%;
+    line-height: 20px;
+    margin-left: px;
+    margin-right: px;
+    margin: auto;
+    
+    color: #6f6161;
+    text-align: center;
 
-    }
+}
+
+.strong {
+    font-size: 24px;
+    width: 50%;
+    line-height: 20px;
+    margin-left: 3px;
+    margin-right: 5px;
+    margin: auto;
+    padding: 1rem;
+    color: #6f6161;
+    
+
+}
+
+
 
 
 
