@@ -7,7 +7,7 @@ Athletic Club is a gym site that provides membership. The site gives the user a 
 
 ## Intro
 
-*This site is for anyone who wants to improve their well-being and overall physique.
+* This site is for anyone who wants to improve their well-being and overall physique.
 
 
 
@@ -72,14 +72,14 @@ Athletic Club is a gym site that provides membership. The site gives the user a 
 * Social media icons
 * Contact form
 
-###Existing Feature Left To Implement
+
 
 
 
 ## Manual Testing
 
 
-*
+* 
 
 
 ## Validator testing
@@ -121,6 +121,15 @@ Athletic Club is a gym site that provides membership. The site gives the user a 
 
 ## Deployment
 
+* This site was deployed to Github pages.
+  * Go to the settings tab i Github repository
+  * Select pages on the menu on the left
+  * In the Build and deployment section set the source to deploy from a branch
+  * Click save
+  * Your site is now deployd to Github 
+  * The live link can be found here https://patteerrik.github.io/Athletic-Club
 
 
 ## Credits
+
+* 
