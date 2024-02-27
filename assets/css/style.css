@@ -193,9 +193,7 @@ div h3 {
     
     
 }
-main {
-    background-color:;
-}
+
 main section div h3{
     background-color:#fdfcfb;
 }
@@ -270,6 +268,10 @@ p {
 
 
 /* Sign up page */
+
+#hanging {
+    height:35vh;
+}
 
 #become {
     font-size: 20px;
@@ -522,6 +524,10 @@ input {
 
     /* Sign up page */
 
+    #hanging {
+        height:35vh;
+    }
+
     .submit {
         margin-top: 3rem;
         line-height: 3rem;
@@ -631,7 +637,7 @@ input {
 
     .mood {
         font-size: 20px;
-        width: fit-content;
+        width: 60%;
         line-height: 25px;
         margin-left: 3px;
         margin-right: 5px;
@@ -645,7 +651,7 @@ input {
 
     .confident {
         font-size: 20px;
-        width: fit-content;
+        width: 60%;
         line-height: 20px;
         margin-left: 3px;
         margin-right: 5px;
@@ -660,7 +666,7 @@ input {
 
     .health {
         font-size: 20px;
-        width: fit-content;
+        width: 60%;
         line-height: 20px;
         margin-left: 3px;
         margin-right: 5px;
@@ -673,7 +679,7 @@ input {
 
     .strong {
         font-size: 20px;
-        width: fit-content;
+        width: 60%;
         line-height: 20px;
         margin-left: 3px;
         margin-right: 5px;
@@ -708,6 +714,10 @@ input {
 
 
     /* Sign up page */
+
+    #hanging {
+        height:55vh;
+    }
 
     .submit {
         margin-top: 5rem;
@@ -749,12 +759,10 @@ input {
 
     .info {
         font-size: 24px;
-        
         color: #313131e3;
         line-height: 3rem;
-        padding-left: rem;
         padding-right: 10rem;
-        text-align:-webkit-auto;
+        
         
 
     }
@@ -778,70 +786,68 @@ input {
 
 
 section {
-     display:flex;
-     margin:auto;
-     margin-left:8rem;
-     margin-top:3rem;
-     font-size:26px;
-     line-height:5rem;
+    display:flex;
+    
+    font-size:26px;
+    line-height:5rem;
 }
 
 
+
 .mood {
-    font-size: 24px;
-    width: 50%;
-    line-height: 25px;
-    
-    margin: auto;
-    padding: 1rem;
-    color: #6f6161;
-    text-align: center;
+   font-size: 24px;
+        width: 60%;
+        line-height: 20px;
+        margin-left: 3px;
+        margin-right: 5px;
+        margin: auto;
+        padding: 1rem;
+        color: #6f6161;
+        text-align: center;
 
 
 }
 
 .confident {
-    font-size: 24px;
-    width: 50%;
-    line-height: 20px;
-    padding-left:2rem;
-    margin: auto;
-    padding: 1rem;
-    color: #6f6161;
-    text-align: center;
-
+   font-size: 24px;
+        width: 60%;
+        line-height: 20px;
+        margin-left: 3px;
+        margin-right: 5px;
+        margin: auto;
+        padding: 1rem;
+        color: #6f6161;
+        text-align: center;
 
 }
 
 
 .health {
-    font-size: 24px;
-    width: 50%;
-    line-height: 20px;
-    margin-left: px;
-    margin-right: px;
-    margin: auto;
-    
-    color: #6f6161;
-    text-align: center;
+   font-size: 24px;
+        width: 60%;
+        line-height: 20px;
+        margin-left: 3px;
+        margin-right: 5px;
+        margin: auto;
+        padding: 1rem;
+        color: #6f6161;
+        text-align: center;
 
 }
 
 .strong {
-    font-size: 24px;
-    width: 50%;
-    line-height: 20px;
-    margin-left: 3px;
-    margin-right: 5px;
-    margin: auto;
-    padding: 1rem;
-    color: #6f6161;
-    
+   font-size: 24px;
+        width: 60%;
+        line-height: 20px;
+        margin-left: 3px;
+        margin-right: 5px;
+        margin: auto;
+        padding: 1rem;
+        color: #6f6161;
+        text-align: center;
+   
 
 }
-
-
-
 
 
 
@@ -851,6 +857,10 @@ section {
 
 
     /* Sign up page */
+
+    #hanging {
+        height:55vh;
+    }
 
 
     #become {
@@ -882,3 +892,67 @@ background-color:#fdfcfb;
 font-size:24px;
 }
 }
+
+@media screen and (min-width: 2270px) {
+
+    /* Inspiration page */
+    
+    
+    section {
+        display:flex;
+        font-size:26px;
+        line-height:5rem;
+        margin-left: 5rem;
+
+    }
+    
+    
+    
+    .mood {
+       font-size: 26px;
+            width: 60%;
+            line-height: 20px;
+            margin: auto;
+            padding: 1rem;
+            color: #6f6161;
+            text-align: center;
+    
+    
+    }
+    
+    .confident {
+       font-size: 26px;
+            width: 60%;
+            line-height: 20px;
+            margin: auto;
+            padding: 1rem;
+            color: #6f6161;
+            text-align: center;
+    
+    }
+    
+    
+    .health {
+       font-size: 26px;
+            width: 60%;
+            line-height: 20px;
+            margin: auto;
+            padding: 1rem;
+            color: #6f6161;
+            text-align: center;
+    
+    }
+    
+    .strong {
+       font-size: 26px;
+            width: 60%;
+            line-height: 20px;
+            margin: auto;
+            padding: 1rem;
+            color: #6f6161;
+            text-align: center;
+       
+    
+    }
+    
+    }
