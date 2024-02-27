@@ -708,9 +708,12 @@ input {
 
 
 section {
-    display:flex;
+     display:flex;
      margin:auto;
      margin-left:8rem;
+     margin-top:3rem;
+     font-size:26px;
+     line-height:5rem;
 }
 
 
