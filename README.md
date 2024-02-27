@@ -86,13 +86,23 @@ Athletic Club is a gym site that provides membership. The site gives the user a 
 
 ### CSS
 
-* 
+* 4 errors found and fixed using [Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
+
+![Alt text](assets/images/readme-images/Css%20checker.png)
 
 ### HTML
 
-* Home page: 7 errors were found using [W3C VALIDATOR](https://validator.w3.org/)
-* Inpiration page: 12 errors were found using [W3C VALIDATOR](https://validator.w3.org/)
-* Sign up page: 12 error were found using [W3C VALIDATOR](https://validator.w3.org/)
+* Home page: 7 errors were found and fixed using [W3C VALIDATOR](https://validator.w3.org/)
+
+![Alt text](assets/images/readme-images/Home%20page%20Html%20checker.png)
+
+* Inpiration page: 12 errors were found and fixed using [W3C VALIDATOR](https://validator.w3.org/)
+
+![Alt text](assets/images/readme-images/Inspiration%20page%20Html%20checker.png)
+
+* Sign up page: 12 error were found and fixed using [W3C VALIDATOR](https://validator.w3.org/)
+
+![Alt text](assets/images/readme-images/Sign%20up%20page%20Html%20checker.png)
 
 
 ## Lighthouse testing
