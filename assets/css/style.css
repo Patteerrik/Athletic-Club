@@ -124,12 +124,15 @@ main {
 
 
 footer ul {
-    text-align: center;
+    text-align:center;
     display: flex;
-    font-size: rem;
-    justify-content: space-evenly;
+    margin-left:20px;
+    justify-content:center;
+    letter-spacing:20px;
+    
     padding: 4px;
     list-style-type: none;
+    
 }
 
 
@@ -143,7 +146,6 @@ footer ul li a {
 
 #about {
     font-size: 20px;
-    padding: 1rem;
     margin-top: 1rem;
 
 
@@ -170,7 +172,8 @@ footer ul li a {
 /* Inspiration page */
 
 div h3 {
-    text-align:center
+    text-align:center;
+    margin-top:1rem;
     
     
 }
@@ -259,7 +262,23 @@ p {
     color: rgba(57, 56, 56, 0.997);
     margin-left: 2px;
     margin-right: 2px;
+    margin-top:1rem;
 
+}
+
+.contact {
+    margin-top:2rem;
+    background-color:#f5f7fa ;
+    padding-top:20px
+    
+    
+}
+
+.contact p {
+    text-align:center;
+    line-height:4rem;
+    background-color:#f5f7fa;
+    font-size:18px;
 }
 /* Styling the sign up form */
 
@@ -369,12 +388,13 @@ input {
 
     /* Footer */
 
-    footer ul li a {
-        font-size: 2rem;
-    }
-
-    footer ul li {
-        font-size: 1rem;
+    #socials   {
+        font-size:2rem;
+        letter-spacing:4rem;
+        text-align:center;
+        padding-left:3rem;
+        
+        
     }
 
     /* Main div section */
@@ -532,7 +552,21 @@ input {
 
     }
 
-
+    .contact {
+        margin-top:2rem;
+        background-color:#f5f7fa ;
+        padding-top:50px;
+        
+        
+    }
+    
+    .contact p {
+        text-align:center;
+        line-height:7rem;
+        background-color:#f5f7fa;
+        font-size:1.3rem;
+    }
+    
 
 }
 /* For medium screen sizes from 992px width and up */
@@ -665,6 +699,22 @@ input {
         margin-top: 5rem;
     }
 
+    .contact {
+    
+        background-color:#f5f7fa ;
+        padding-top:100px;
+        font-size:28px;
+        
+        
+    }
+    
+        .contact p {
+        text-align:center;
+        line-height:7rem;
+        background-color:#f5f7fa;
+        font-size:26px;
+    }
+
 
 
 }
@@ -675,21 +725,27 @@ input {
     /* Home page */
 
     #about {
-        font-size: 26px;
+        font-size: 30px;
         line-height: 1rem;
+        padding-right:10rem;
+        
 
 
     }
 
     .info {
         font-size: 24px;
-
+        
         color: #313131e3;
         line-height: 3rem;
         padding-left: rem;
         padding-right: 10rem;
+        text-align:-webkit-auto;
+        
 
     }
+
+    
 
     
 
@@ -795,4 +851,20 @@ section {
         line-height: 35px;
 
     }
+
+    .contact {
+    
+        background-color:#f5f7fa ;
+        padding-top:150px;
+        font-size:26px
+
+
+}
+
+.contact p {
+text-align:center;
+line-height:7rem;
+background-color:#f5f7fa;
+font-size:24px;
+}
 }
