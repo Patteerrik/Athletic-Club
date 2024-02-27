@@ -3,7 +3,7 @@
 # The title is Athletic Club
 
 Athletic Club is a gym site that provides membership. The site gives the user a brief explanation of who they are and what they offer. It aims to help potential members improve their physique and overall health.
-![Alt text](assets/images/readme-images/Am%20I%20Responsive%202.png)
+![Alt text](assets/images/readme-images/Multi%20device%20test.png)
 
 ## Intro
 
@@ -107,7 +107,17 @@ Athletic Club is a gym site that provides membership. The site gives the user a 
 
 ## Lighthouse testing
 
+### Home Page
 
+![Alt text](assets/images/readme-images/Home%20page%20(lighthouse).png)
+
+### Inspiration page
+
+![Alt text](assets/images/readme-images/Inspiration%20page%20(lighthouse).png)
+
+### Sign up page
+
+![Alt text](assets/images/readme-images/Sign%20up%20page%20(lighthouse).png)
 
 ## Deployment
 
