@@ -32,7 +32,8 @@ Athletic Club is a gym site that provides membership. The site gives the user a 
 ### Home page
 ![Alt text](assets/images/readme-images/Home%20page%20(Readme).png)
 
-* The home page give the user a sense of joy and welcome which is the goal of the front page. A positive background combined with confidence-inspiring text.
+* The home page give the user an understanding of what Athletic club offer and a sense of welcome which is the goal of the front page. A serious background combined with confidence-inspiring text.
+* This site is for anyone who wants to improve their physique and overall health
 
 
 
@@ -62,7 +63,7 @@ Athletic Club is a gym site that provides membership. The site gives the user a 
 
 * In this section the user can fill out a form to become a member.
 * The user can use the text area if they have any questions.
-* "Questions and phone area" is the only ones that is not required.
+* "Questions and phone area" is the only ones that are not required.
 
 
 
@@ -194,4 +195,11 @@ Athletic Club is a gym site that provides membership. The site gives the user a 
 
 ## Credits
 
-* 
+* [Favicon.io](https://favicon.io/) was used to create the favicon
+* [Pexels](https://www.pexels.com/sv-se/sok/gym/) was used to download images for the site
+* [I love img](https://www.iloveimg.com/resize-image) was used to resize the images
+* [W3schools](https://www.w3schools.com/) whas used to create boxshadow on inspiration page
+* "Love runnig" helped with getting the favicon in place
+* [Brocode](https://www.youtube.com/watch?v=VQWu4e6agPc&list=WL&index=6&t=53s) used to create a dropdown menu
+* [Fontawesome](https://fontawesome.com/) was used for all fonts
+* [Am I responsive](https://ui.dev/amiresponsive) was used to see how the site look on diffent devices

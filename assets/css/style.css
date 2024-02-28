@@ -426,18 +426,18 @@ input {
 
 
     #about {
-        padding: 2rem;
+        
         font-size: 20px;
     }
 
     .info {
-        font-size: 18px;
+        
         width: fit-content;
-        line-height: 60px;
+        line-height: 50px;
         margin-left: 3px;
         margin-right: 5px;
         padding: 1rem;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         color: #6f6161;
         text-align: center;
     }
@@ -467,7 +467,7 @@ input {
  
      .mood {
          
-         width: 70%;
+         width: 80%;
          line-height: 20px;
          margin: auto;
          padding: 1.5rem;
@@ -645,6 +645,7 @@ input {
         padding: 1rem;
         color: #6f6161;
         text-align: center;
+        box-shadow: 10px 10px 5px #e3e8ec;
 
 
     }
@@ -652,13 +653,14 @@ input {
     .confident {
         font-size: 20px;
         width: 60%;
-        line-height: 20px;
+        line-height: 25px;
         margin-left: 3px;
         margin-right: 5px;
         margin: auto;
         padding: 1rem;
         color: #6f6161;
         text-align: center;
+        box-shadow: 10px 10px 5px #e3e8ec;
 
 
     }
@@ -667,26 +669,28 @@ input {
     .health {
         font-size: 20px;
         width: 60%;
-        line-height: 20px;
+        line-height: 25px;
         margin-left: 3px;
         margin-right: 5px;
         margin: auto;
         padding: 1rem;
         color: #6f6161;
         text-align: center;
+        box-shadow: 10px 10px 5px #e3e8ec;
 
     }
 
     .strong {
         font-size: 20px;
         width: 60%;
-        line-height: 20px;
+        line-height: 25px;
         margin-left: 3px;
         margin-right: 5px;
         margin: auto;
         padding: 1rem;
         color: #6f6161;
         text-align: center;
+        box-shadow: 10px 10px 5px #e3e8ec;
 
     }
 
@@ -749,23 +753,25 @@ input {
     /* Home page */
 
     #about {
-        font-size: 30px;
-        line-height: 1rem;
-        padding-right:10rem;
         
-
-
+        font-size: 1.8rem;
     }
 
     .info {
-        font-size: 24px;
-        color: #313131e3;
-        line-height: 3rem;
-        padding-right: 10rem;
         
+        width: fit-content;
+        line-height: 50px;
+        margin-left: 3px;
+        margin-right: 5px;
+        padding: 1rem;
+        font-size: 1.3rem;
+        color: #6f6161;
+        text-align: center;
+    
+    }
         
 
-    }
+    
 
     
 
@@ -787,7 +793,6 @@ input {
 
 section {
     display:flex;
-    
     font-size:26px;
     line-height:5rem;
 }
@@ -797,13 +802,14 @@ section {
 .mood {
    font-size: 24px;
         width: 60%;
-        line-height: 20px;
+        line-height: 28px;
         margin-left: 3px;
         margin-right: 5px;
         margin: auto;
         padding: 1rem;
         color: #6f6161;
         text-align: center;
+        box-shadow: 10px 10px 5px #e3e8ec;
 
 
 }
@@ -811,13 +817,14 @@ section {
 .confident {
    font-size: 24px;
         width: 60%;
-        line-height: 20px;
+        line-height: 28px;
         margin-left: 3px;
         margin-right: 5px;
         margin: auto;
         padding: 1rem;
         color: #6f6161;
         text-align: center;
+        box-shadow: 10px 10px 5px #e3e8ec;
 
 }
 
@@ -825,26 +832,28 @@ section {
 .health {
    font-size: 24px;
         width: 60%;
-        line-height: 20px;
+        line-height: 28px;
         margin-left: 3px;
         margin-right: 5px;
         margin: auto;
         padding: 1rem;
         color: #6f6161;
         text-align: center;
+        box-shadow: 10px 10px 5px #e3e8ec;
 
 }
 
 .strong {
    font-size: 24px;
         width: 60%;
-        line-height: 20px;
+        line-height: 28px;
         margin-left: 3px;
         margin-right: 5px;
         margin: auto;
         padding: 1rem;
         color: #6f6161;
         text-align: center;
+        box-shadow: 10px 10px 5px #e3e8ec;
    
 
 }
@@ -885,15 +894,37 @@ section {
 
 }
 
-.contact p {
-text-align:center;
-line-height:7rem;
-background-color:#fdfcfb;
-font-size:24px;
+    .contact p {
+
+    text-align:center;
+    line-height:7rem;
+    background-color:#fdfcfb;
+    font-size: 24px;
 }
 }
 
 @media screen and (min-width: 2270px) {
+
+    /* Home page */
+
+    #about {
+        
+        font-size: 1.8rem;
+        margin-right: 4rem;
+    }
+
+    .info {
+        
+        width: 80%;
+        line-height: 3.2rem;
+        margin-left: 13rem;
+        margin-right: 5p;
+        padding: 1rem;
+        font-size: 1.5rem;
+        color: #6f6161;
+        text-align: center;
+    
+    }
 
     /* Inspiration page */
     
@@ -901,7 +932,7 @@ font-size:24px;
     section {
         display:flex;
         font-size:26px;
-        line-height:5rem;
+        line-height:6rem;
         margin-left: 5rem;
 
     }
@@ -909,13 +940,15 @@ font-size:24px;
     
     
     .mood {
-       font-size: 26px;
+            font-size: 26px;
             width: 60%;
-            line-height: 20px;
+            line-height: 30px;
             margin: auto;
             padding: 1rem;
             color: #6f6161;
             text-align: center;
+            box-shadow: 10px 10px;
+            box-shadow: 10px 10px 5px #e3e8ec;
     
     
     }
@@ -923,11 +956,12 @@ font-size:24px;
     .confident {
        font-size: 26px;
             width: 60%;
-            line-height: 20px;
+            line-height: 30px;
             margin: auto;
             padding: 1rem;
             color: #6f6161;
             text-align: center;
+            box-shadow: 10px 10px 5px #e3e8ec;
     
     }
     
@@ -935,22 +969,24 @@ font-size:24px;
     .health {
        font-size: 26px;
             width: 60%;
-            line-height: 20px;
+            line-height: 30px;
             margin: auto;
             padding: 1rem;
             color: #6f6161;
             text-align: center;
+            box-shadow: 10px 10px 5px #e3e8ec;
     
     }
     
     .strong {
        font-size: 26px;
             width: 60%;
-            line-height: 20px;
+            line-height: 30px;
             margin: auto;
             padding: 1rem;
             color: #6f6161;
             text-align: center;
+            box-shadow: 10px 10px 5px #e3e8ec;
        
     
     }
