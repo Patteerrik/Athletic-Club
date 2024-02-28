@@ -1,13 +1,10 @@
-#Title
+# Athletic Club
 
-# The title is Athletic Club
 
-Athletic Club is a gym site that provides membership. The site gives the user a brief explanation of who they are and what they offer. It aims to help potential members improve their physique and overall health.
-![Alt text](assets/images/readme-images/Multi%20device%20test.png)
+![Alt text](assets/images/readme-images/AmIresponsive2.png)
 
-## Intro
-
-* This site is for anyone who wants to improve their well-being and overall physique.
+* Athletic Club is a gym site that provides membership and seminars. The site gives the user a brief explanation of who they are and what they offer. It aims to help potential members improve their physique and overall health.
+* This site is for anyone who wants to improve their physique and overall health
 
 
 
@@ -23,7 +20,7 @@ Athletic Club is a gym site that provides membership. The site gives the user a 
 
 * It will be responisve on all devices. 
 
-* Clicking on the Home button will take the user to the main page.
+* Clicking on the Home button will direct the user to the main page.
 
 
 
@@ -33,7 +30,7 @@ Athletic Club is a gym site that provides membership. The site gives the user a 
 ![Alt text](assets/images/readme-images/Home%20page%20(Readme).png)
 
 * The home page give the user an understanding of what Athletic club offer and a sense of welcome which is the goal of the front page. A serious background combined with confidence-inspiring text.
-* This site is for anyone who wants to improve their physique and overall health
+
 
 
 
@@ -54,7 +51,7 @@ Athletic Club is a gym site that provides membership. The site gives the user a 
 
 
 
-* This section provides the user with several health benefits on why they should consider to start exercising
+* This section provides the user with several health and psychological benefits on why they should consider to start exercising
 
 
 
@@ -63,7 +60,7 @@ Athletic Club is a gym site that provides membership. The site gives the user a 
 
 * In this section the user can fill out a form to become a member.
 * The user can use the text area if they have any questions.
-* "Questions and phone area" is the only ones that are not required.
+* "Questions and phone area" are the only ones that are not required.
 
 
 
@@ -76,12 +73,11 @@ Athletic Club is a gym site that provides membership. The site gives the user a 
 * Contact form
 
 
-
-## Responsiveness
-
 ## Testing 
+
+
 * The site is tested on Google chrome, Safari
-* I have checked using google chrome devtool the responsivess on various screensizes
+
 
 ### Navigation links
 
@@ -125,9 +121,8 @@ Athletic Club is a gym site that provides membership. The site gives the user a 
 
 
 
+
 ## Manual Testing
-
-
 
 
 
@@ -186,8 +181,8 @@ Athletic Club is a gym site that provides membership. The site gives the user a 
 
 * This site was deployed to Github pages.
   * Go to the settings tab i Github repository
-  * Select pages on the menu on the left
-  * In the Build and deployment section set the source to deploy from a branch
+  * Select pages on the menu on the left side navigation bar 
+  * In the Build and deployment section set the source to deploy from a branch and set the branch to main and root
   * Click save
   * Your site is now deployd to Github 
   * The live link can be found here https://patteerrik.github.io/Athletic-Club
@@ -202,4 +197,5 @@ Athletic Club is a gym site that provides membership. The site gives the user a 
 * "Love runnig" helped with getting the favicon in place
 * [Brocode](https://www.youtube.com/watch?v=VQWu4e6agPc&list=WL&index=6&t=53s) used to create a dropdown menu
 * [Fontawesome](https://fontawesome.com/) was used for all fonts
-* [Am I responsive](https://ui.dev/amiresponsive) was used to see how the site look on diffent devices
+* [Am I responsive](https://ui.dev/amiresponsive) was used along with Google chrome devtools to see how the site look on various devices
+* I used [W3schools](https://www.w3schools.com/), [She code](https://www.shecodes.io/), [Brocode](https://www.youtube.com/@BroCodez), [Geeks for geeks](https://www.geeksforgeeks.org/) and LMS for information on a large variety of problem solutions 
