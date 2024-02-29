@@ -72,11 +72,7 @@
 * Social media icons
 * Contact form
 
-
-## Testing 
-
-
-* The site is tested on Google chrome, Safari
+## Manual testing
 
 
 ### Navigation links
@@ -112,21 +108,21 @@
  Feature  | action | Expectation| Results|
 | --- | --- | --- | --- |
 |Name fields | Press the sign up button without typing any text| If the user does not type any text, an error message "Please, fill out this field" appears | An error message appears just as expected|
-| Email field | Press the sign up button without typing any text | If the user does not type any text, an error message "Please, fill out this field" appears| An error message appears just as expected|
+| Email field | Press the sign up button without typing any text | If the user does not type an email address, an error message "Please, fill out this field" appears| An error message appears just as expected|
 | Phone number field | Press the sign up button without typing any text |The user is directed to the contact page with a "Welcome" message | User is directed towards the contact page with a "Welcome" message|
 | The text area | Press the sign up button without typing any text |The user is directed to the contact page with a "Welcome" message | User is directed towards the contact page with a "Welcome" message|
 
 
 
 
+## Testing 
 
 
-
-## Manual Testing
-
+* The site is tested on multiple browser (Google chrome, Safari, Edge and Firefox) and it is also tested on several different phones. Both android and iphones
 
 
 ## Validator testing
+
 
 
 ### CSS
@@ -199,3 +195,4 @@
 * [Fontawesome](https://fontawesome.com/) was used for all fonts
 * [Am I responsive](https://ui.dev/amiresponsive) was used along with Google chrome devtools to see how the site look on various devices
 * I used [W3schools](https://www.w3schools.com/), [She code](https://www.shecodes.io/), [Brocode](https://www.youtube.com/@BroCodez), [Geeks for geeks](https://www.geeksforgeeks.org/) and LMS for information on a large variety of problem solutions 
+* A big credit to Dajana Isbaner_5P_lead. She has been very helpful on slack
