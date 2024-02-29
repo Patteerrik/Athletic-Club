@@ -26,6 +26,7 @@ body {
 #title {
     font-size: 1.6rem;
     margin-left: 5px;
+    background-color: #fdfcfb;
 }
 
 
@@ -38,7 +39,7 @@ header {
     box-shadow: 0 1px 1px;
     justify-content: space-between;
     align-items: center;
-    background-color:#fdfcfb;
+    background-color: #fdfcfb;
 
 
 
@@ -47,6 +48,7 @@ header {
 
 header a {
     text-decoration: none;
+    
 
 
 
@@ -68,7 +70,7 @@ nav {
     position: absolute;
     display: none;
     top: 100%;
-    background-color: white;
+    background-color: #fdfcfb;;
     width: 100%;
     padding-right: 6px;
     line-height: 25px;
@@ -346,6 +348,39 @@ input {
     margin-top: 1rem;
 }
 
+/* 404 page */
+
+.notexist {
+
+    text-align: center;
+    line-height: 4rem;
+    margin-top:4rem;
+    padding-left:5px;
+    padding-right:5px;
+    
+   
+}
+
+.notexist h1 {
+
+    color:black
+}  
+
+.notexist h2 {
+
+    color:#48484b
+}  
+
+.notfound {
+
+      text-align: center;
+    
+    
+    
+  
+
+}
+
 
 /* For smaller to medium screen sizes from 768px width and up */
 
@@ -586,6 +621,13 @@ input {
         background-color:#fdfcfb;
         font-size:1.3rem;
     }
+
+     /* 404 page */
+
+     .notexist {
+        padding:7rem;
+        line-height:6rem
+    }
     
 
 }
@@ -741,6 +783,13 @@ input {
         line-height:7rem;
         background-color:#fdfcfb;
         font-size:26px;
+    }
+
+     /* 404 page */
+
+     .notexist {
+        padding:7rem;
+        line-height:6rem
     }
 
 
@@ -918,7 +967,6 @@ section {
         width: 80%;
         line-height: 3.2rem;
         margin-left: 13rem;
-        margin-right: 5p;
         padding: 1rem;
         font-size: 1.5rem;
         color: #6f6161;

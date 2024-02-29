@@ -3,12 +3,18 @@
 
 ![Alt text](assets/images/readme-images/AmIresponsive2.png)
 
-* Athletic Club is a gym site that provides membership and seminars. The site gives the user a brief explanation of who they are and what they offer. It aims to help potential members improve their physique and overall health.
+* Athletic Club is a gym site that provides membership and seminars. The site gives the user a brief explanation of who they are and what they offer. It aims to help potential members reach their goals
 * This site is for anyone who wants to improve their physique and overall health
 
 
 
+## Existing Features
 
+* Navigationbar
+* Footer
+* Clickable links
+* Social media icons
+* Contact form
 
 
 ### Navigation bar 
@@ -20,7 +26,7 @@
 
 * It will be responisve on all devices. 
 
-* Clicking on the Home button will direct the user to the main page.
+* Clicking on the title or home button will direct the user to the home page.
 
 
 
@@ -29,7 +35,7 @@
 ### Home page
 ![Alt text](assets/images/readme-images/Home%20page%20(Readme).png)
 
-* The home page give the user an understanding of what Athletic club offer and a sense of welcome which is the goal of the front page. A serious background combined with confidence-inspiring text.
+* The home page give the user an understanding of what Athletic club offer and a sense of welcome which is the goal of the front page. A serious background combined with confidence inspiring text.
 
 
 
@@ -40,16 +46,18 @@
 ![Alt text](assets/images/readme-images/Footer%20(Readme).png)
 
 * The footer section includes links to social media sites that will open in an new tab.
-* This will give the user an easy way of following Athletic Club on different social media platforms.
+* This will give the user an easy way to follow Athletic Club on different social media platforms.
 * The footer section is on all pages.
 
+### Logo
+![Alt text](assets/images/readme-images/Favicon%20emoji%20(Readme).png)
 
+* The logo is a weightlifting emoji
+* It will make it easier for the user to find the website when multible tabs are open
 
 
 ## Inspiration page
 ![Alt text](assets/images/readme-images/Inspiration%20page%20(Readme).png)
-
-
 
 * This section provides the user with several health and psychological benefits on why they should consider to start exercising
 
@@ -60,19 +68,31 @@
 
 * In this section the user can fill out a form to become a member.
 * The user can use the text area if they have any questions.
-* "Questions and phone area" are the only ones that are not required.
+* Questions and phone number area are the only ones that are not required.
 
 
+## Contact page
+![Alt text](assets/images/readme-images/Contact%20page%20(Readme).png)
+
+* Filling out the form successfully the user is directed to the contact page 
 
 
-## Existing Features
+## 404 page
+![Alt text](assets/images/readme-images/404%20page%20(Readme).png)
 
-* Navbar
-* Footer
-* Social media icons
-* Contact form
+* 404 page will show if the user navigates to a broken link
+* The user can easily navigate back the home page by clicking the link "Return to homepage!"
+
 
 ## Manual testing
+
+
+### Title
+
+
+| Navigation link | Page to load | Expectation|Results|
+| --- | --- | --- |--- |
+| Title | index.html | By pressing the title the user is directed to the home page | Pressing the title the user is directed to the home page |
 
 
 ### Navigation links
@@ -88,27 +108,22 @@
 ### Footer (Social media icons)
 
 
-| Navigation link | Page to load | Expectation|
-| --- | --- | --- |
-| Link to Facebook | https://www.facebook.com/ | Navigated correctly (opens in a new tab) |
-| Link to Instagram | https://www.instagram.com/ |Navigated correctly (opens in a new tab) |
-| Link to Twitter | https://twitter.com/?lang=sv |Navigated correctly (opens in a new tab) |
-| Link to Youtube | https://www.youtube.com/ |Navigated correctly (opens in a new tab) |
-
-### Logo 
+| Navigation link | Page to load | Expectation| Result|
+| --- | --- | --- |--- |
+| Link to Facebook | https://www.facebook.com/ | Navigates correctly (opens in a new tab) |Navigated correctly (opens in a new tab) |
+| Link to Instagram | https://www.instagram.com/ |Navigates correctly (opens in a new tab) |Navigated correctly (opens in a new tab) |
+| Link to Twitter | https://twitter.com/?lang=sv |Navigates correctly (opens in a new tab) |Navigated correctly (opens in a new tab) |
+| Link to Youtube | https://www.youtube.com/ |Navigates correctly (opens in a new tab) |Navigated correctly (opens in a new tab) |
 
 
-| Navigation link | Page to load | Expectation|
-| --- | --- | --- |
-| Logo | index.html | Pushing the logo the user is directed to the home page |
 
 
 ### Sign up form 
 
  Feature  | action | Expectation| Results|
 | --- | --- | --- | --- |
-|Name fields | Press the sign up button without typing any text| If the user does not type any text, an error message "Please, fill out this field" appears | An error message appears just as expected|
-| Email field | Press the sign up button without typing any text | If the user does not type an email address, an error message "Please, fill out this field" appears| An error message appears just as expected|
+|Name fields | Press the sign up button without typing any text| If the user does not type any text, an error message "Please, fill out this field" appears | An error message "Please, fill out this field" appears |
+| Email field | Press the sign up button without typing any text | If the user does not type an email address, an error message "Please, fill out this field" appears| An error message "Please, fill out this field" appears |
 | Phone number field | Press the sign up button without typing any text |The user is directed to the contact page with a "Welcome" message | User is directed towards the contact page with a "Welcome" message|
 | The text area | Press the sign up button without typing any text |The user is directed to the contact page with a "Welcome" message | User is directed towards the contact page with a "Welcome" message|
 
@@ -145,7 +160,7 @@
 ![Alt text](assets/images/readme-images/Inspiration%20page%20Html%20checker.png)
 
 * Sign up page
-  * 12 error were found and fixed using [W3C VALIDATOR](https://validator.w3.org/)
+  * 12 errors were found and fixed using [W3C VALIDATOR](https://validator.w3.org/)
 
 ![Alt text](assets/images/readme-images/Sign%20up%20page%20Html%20checker.png)
 
@@ -153,6 +168,11 @@
   * No errors were found using [W3C VALIDATOR](https://validator.w3.org/)
 
 ![Alt text](assets/images/readme-images/Contact%20page%20(Html%20checker).png) 
+
+* 404 page
+  *  No errors were found [W3C VALIDATOR](https://validator.w3.org/)
+
+ ![Alt text](assets/images/readme-images/404%20page%20(Html%20checker).png) 
 
 
 ## Lighthouse testing
@@ -193,6 +213,11 @@
 * "Love runnig" helped with getting the favicon in place
 * [Brocode](https://www.youtube.com/watch?v=VQWu4e6agPc&list=WL&index=6&t=53s) used to create a dropdown menu
 * [Fontawesome](https://fontawesome.com/) was used for all fonts
-* [Am I responsive](https://ui.dev/amiresponsive) was used along with Google chrome devtools to see how the site look on various devices
-* I used [W3schools](https://www.w3schools.com/), [She code](https://www.shecodes.io/), [Brocode](https://www.youtube.com/@BroCodez), [Geeks for geeks](https://www.geeksforgeeks.org/) and LMS for information on a large variety of problem solutions 
-* A big credit to Dajana Isbaner_5P_lead. She has been very helpful on slack
+* [Am I responsive](https://ui.dev/amiresponsive) was used along with Google chrome devtools to see how the site looked on various devices
+* [W3schools](https://www.w3schools.com/), [She code](https://www.shecodes.io/), [Brocode](https://www.youtube.com/@BroCodez), [Geeks for geeks](https://www.geeksforgeeks.org/) and LMS was used for information on a large variety of problem solutions 
+* A big credit to
+  * My mentor Gareth McGirr
+  * Dajana Isbaner_5P_lead on slack
+  * John, Roman and Sean from Code institute 
+
+
