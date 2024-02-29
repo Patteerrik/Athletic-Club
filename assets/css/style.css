@@ -364,10 +364,6 @@ input {
 .notfound {
 
       text-align: center;
-    
-    
-    
-  
 
 }
 
@@ -611,6 +607,7 @@ input {
 
 }
 /* For medium screen sizes from 992px width and up */
+
 
 @media screen and (min-width: 992px) {
 
@@ -897,6 +894,7 @@ input {
 
     }
 
+    /* Contact page */
 
     .contact {
     
@@ -918,7 +916,19 @@ input {
 
 @media screen and (min-width: 2270px) {
 
-    /* Home page */
+    /* Main */
+
+    section {
+        display:flex;
+        font-size:26px;
+        line-height:6rem;
+        margin-left: 5rem;
+
+    }
+
+
+    /* Home page (index.html) */
+
 
     #about {
         
@@ -938,17 +948,7 @@ input {
     
     }
 
-    /* Inspiration page */
-    
-    
-    section {
-        display:flex;
-        font-size:26px;
-        line-height:6rem;
-        margin-left: 5rem;
-
-    }
-    
+    /* Inspiration page (member.html) */
     
     
     .mood {
