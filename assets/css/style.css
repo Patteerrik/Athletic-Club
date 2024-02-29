@@ -250,23 +250,10 @@ p {
 
 }
 
-#background {
-
-    list-style-type: none;
-    line-height: 60px;
-}
 
 
 
-
-
-
-
-
-
-
-
-/* Sign up page */
+/* Sign up page (inpiration.html) */
 
 #hanging {
     height:35vh;
@@ -281,20 +268,6 @@ p {
 
 }
 
-.contact {
-    margin-top:2rem;
-    background-color:#fdfcfb ;
-    padding-top:20px
-    
-    
-}
-
-.contact p {
-    text-align:center;
-    line-height:4rem;
-    background-color:#fdfcfb;
-    font-size:18px;
-}
 /* Styling the sign up form */
 
 
@@ -345,6 +318,26 @@ input {
     margin-top: 1rem;
 }
 
+
+/* Contact page */
+
+
+.contact {
+    margin-top:2rem;
+    background-color:#fdfcfb ;
+    padding-top:20px
+    
+    
+}
+
+.contact p {
+    text-align:center;
+    line-height:4rem;
+    background-color:#fdfcfb;
+    font-size:18px;
+}
+
+
 /* 404 page */
 
 .notexist {
@@ -392,11 +385,13 @@ input {
 
     }
     
+    /* Adding a line under nav buttons */
+
     .active {
         border-bottom: 2px solid rgba(128, 0, 128, 0.862);
     }
 
-    /* Header page buttons */
+    /* Header */
 
     nav {
         display: block;
@@ -409,9 +404,7 @@ input {
 
     }
 
-    img {
-        height: 40vh
-    }
+   
 
 
     .home {
@@ -434,6 +427,12 @@ input {
         display: none;
     }
 
+   /* Main */
+
+    img {
+    height: 40vh
+}
+
     /* Footer */
 
     #socials   {
@@ -445,16 +444,8 @@ input {
         
     }
 
-    /* Main div section */
 
-
-
-    /* Home page */
-
-
-
-
-
+    /* Home page (index.html) */
 
 
     #about {
@@ -489,7 +480,7 @@ input {
 
 
 
-    /* Inspiration page */
+    /* Inspiration page (member.html) */
 
     div h3 {
         text-align:center
@@ -543,18 +534,12 @@ input {
          color: #6f6161;
          text-align: center;
      }
- 
 
 
 
+    /* Sign up page (inspiration.html) */
 
-
-
-
-    
-
-
-    /* Sign up page */
+    /* Main */
 
     #hanging {
         height:35vh;
@@ -582,12 +567,7 @@ input {
         line-height: 4rem;
     }
 
-    #label {
 
-        font-size: 18px;
-        line-height: 30px;
-
-    }
 
     .button {
         width: 6rem;
@@ -603,6 +583,8 @@ input {
 
 
     }
+
+    /* Contact page */
 
     .contact {
         margin-top:2rem;
@@ -652,6 +634,8 @@ input {
         font-size: 1.6rem;
         margin-right: 40px;
     }
+    
+    /* Creates a hover effect to show user link is clickable */
 
     .home a:hover {
         text-decoration: underline;
@@ -669,10 +653,26 @@ input {
     /* Main content */
 
 
-    section{
+    section {
         display:flex;
     }
 
+
+    /* Home page (index.html) */
+
+    #about {
+        font-size: 22px;
+
+    }
+
+    .info {
+        font-size: 20px;
+        width: 100%;
+    }
+
+
+
+    /* Inspiration page (member.html) */
 
     .mood {
         font-size: 20px;
@@ -741,22 +741,11 @@ input {
         font-size: 3.5rem;
     }
 
-    /* Inspiration page */
-
-    #about {
-        font-size: 22px;
-
-    }
-
-    .info {
-        font-size: 20px;
-        width: 100%;
-    }
+    
 
 
 
-
-    /* Sign up page */
+    /* Sign up page (inspiration.html) */
 
     #hanging {
         height:55vh;
@@ -765,6 +754,8 @@ input {
     .submit {
         margin-top: 5rem;
     }
+
+    /* Contact page */
 
     .contact {
     
@@ -796,7 +787,15 @@ input {
 
 @media screen and (min-width: 1200px) {
 
-    /* Home page */
+    /* Main */
+
+    section {
+        display:flex;
+        font-size:26px;
+        line-height:5rem;
+    }
+
+    /* Home page (index.html) */
 
     #about {
         
@@ -815,33 +814,13 @@ input {
         text-align: center;
     
     }
-        
-
-    
-
-    
-
-    
-
-
 
     .info em {
         color: #1a0b94;
     }
 
 
-
-   
-
-
-/* Inspiration page */
-
-
-section {
-    display:flex;
-    font-size:26px;
-    line-height:5rem;
-}
+ /* Inspiration page (member.html) */
 
 
 
@@ -904,14 +883,7 @@ section {
 
 }
 
-
-
-
-
-
-
-
-    /* Sign up page */
+    /* Sign up page (inspiration.html) */
 
     #hanging {
         height:55vh;
@@ -925,11 +897,6 @@ section {
 
     }
 
-    #label {
-        font-size: 24px;
-        line-height: 35px;
-
-    }
 
     .contact {
     
