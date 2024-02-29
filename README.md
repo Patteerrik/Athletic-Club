@@ -98,11 +98,11 @@
 ### Navigation links
 
 
-| Navigation link | Page to load | Expectation|
-| --- | --- | --- |
-| Home | index.html | Navigated correctly |
-| Inspiration | member.html |Navigated correctly |
-| Sign up | inspiration.html |Navigated correctly |
+| Navigation link | Page to load | Expectation|Results|
+| --- | --- | --- |--- |
+| Home | index.html | By pressing the Home button the user is directed to index.html (home)  |Navigated correctly |
+| Inspiration | member.html |By pressing the Inspiration  button the user is directed to member.html (Inspiration) |Navigated correctly |
+| Sign up | inspiration.html |By pressing the Sign up button the user is directed to inspiration.html (Sign up) |Navigated correctly |
 
 
 ### Footer (Social media icons)
@@ -207,7 +207,7 @@
 ## Bugs and fixes
 
 * Changes were made in the middle of the project on the navigation bar names so they do not match the .html files names. To adress this it is annotated and structured clearly in css for clarity
-* The screen size above 2270px didnt´t look centered fo some reason. To fix that I added another @media query with min-width 2270px and up 
+* The screen size above 2270px didnt´t look centered for some reason. To fix that I added another @media query with min-width 2270px and up 
 
 
 ## Credits
