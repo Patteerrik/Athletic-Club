@@ -215,9 +215,7 @@ tr:nth-child(even) {
     background-color:#cee1f2
 }
 
-.timetable{
-    
-}
+
 
 div h3 {
     text-align:center;
@@ -235,7 +233,7 @@ div h3 {
 
 
 
-main section div h3{
+main .benefits div h3{
     background-color:#f8f5f2;
 }
 
@@ -565,16 +563,17 @@ table, td{
 
 #timetable {
     padding-bottom:3rem;
+    }
     
    
 
 
     div h3 {
-        text-align:center
+        text-align:center;
         
         
     }
-    
+
  
      .mood {
          
@@ -693,7 +692,7 @@ table, td{
 
      .notexist {
         padding:7rem;
-        line-height:6rem
+        line-height:6rem;
     }
     
 
@@ -742,7 +741,7 @@ table, td{
     /* Main content */
 
 
-    section {
+   .benefits {
         display:flex;
     }
 
@@ -781,7 +780,7 @@ table, td{
         margin-right: 5px;
         margin: auto;
         padding: 1rem;
-        color: #6f6161;
+        color: black;
         text-align: center;
         box-shadow: 10px 10px 5px #82a3be;
 
@@ -796,7 +795,7 @@ table, td{
         margin-right: 5px;
         margin: auto;
         padding: 1rem;
-        color: #6f6161;
+        color: black;
         text-align: center;
         box-shadow: 10px 10px 5px #82a3be;
 
@@ -812,7 +811,7 @@ table, td{
         margin-right: 5px;
         margin: auto;
         padding: 1rem;
-        color: #6f6161;
+        color: black;
         text-align: center;
         box-shadow: 10px 10px 5px #82a3be;
 
@@ -826,7 +825,7 @@ table, td{
         margin-right: 5px;
         margin: auto;
         padding: 1rem;
-        color: #6f6161;
+        color: black;
         text-align: center;
         box-shadow: 10px 10px 5px #82a3be;
 
@@ -876,7 +875,7 @@ table, td{
 
      .notexist {
         padding:7rem;
-        line-height:6rem
+        line-height:6rem;
     }
 
 
@@ -888,7 +887,7 @@ table, td{
 
     /* Main */
 
-    section {
+    .benefits {
         display:flex;
         font-size:26px;
         line-height:5rem;
@@ -940,7 +939,7 @@ table, td{
         margin-right: 5px;
         margin: auto;
         padding: 1rem;
-        color: #6f6161;
+        color: black;
         text-align: center;
         box-shadow: 10px 10px 5px #82a3be;
 
@@ -955,7 +954,7 @@ table, td{
         margin-right: 5px;
         margin: auto;
         padding: 1rem;
-        color: #6f6161;
+        color: black;
         text-align: center;
         box-shadow: 10px 10px 5px #82a3be;
 
@@ -970,7 +969,7 @@ table, td{
         margin-right: 5px;
         margin: auto;
         padding: 1rem;
-        color: #6f6161;
+        color: black;
         text-align: center;
         box-shadow: 10px 10px 5px #82a3be;
 
@@ -984,7 +983,7 @@ table, td{
         margin-right: 5px;
         margin: auto;
         padding: 1rem;
-        color: #6f6161;
+        color: black;
         text-align: center;
         box-shadow: 10px 10px 5px #82a3be;
    
@@ -1029,7 +1028,7 @@ table, td{
 
     /* Main */
 
-    section {
+    .benefits {
         display:flex;
         font-size:26px;
         line-height:6rem;
@@ -1068,7 +1067,7 @@ table, td{
             line-height: 30px;
             margin: auto;
             padding: 1rem;
-            color: #6f6161;
+            color: black;
             text-align: center;
             box-shadow: 10px 10px;
             box-shadow: 10px 10px 5px #82a3be;
@@ -1082,7 +1081,7 @@ table, td{
             line-height: 30px;
             margin: auto;
             padding: 1rem;
-            color: #6f6161;
+            color: black;
             text-align: center;
             box-shadow: 10px 10px 5px #82a3be;
     
@@ -1095,7 +1094,7 @@ table, td{
             line-height: 30px;
             margin: auto;
             padding: 1rem;
-            color: #6f6161;
+            color: black;
             text-align: center;
             box-shadow: 10px 10px 5px #82a3be;
     
@@ -1107,7 +1106,7 @@ table, td{
             line-height: 30px;
             margin: auto;
             padding: 1rem;
-            color: #6f6161;
+            color: black;
             text-align: center;
             box-shadow: 10px 10px 5px #82a3be;
        
