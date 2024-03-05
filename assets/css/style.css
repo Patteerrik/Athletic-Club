@@ -152,19 +152,12 @@ footer ul li a {
     list-style-type: none;
 }
 
-/* opening hours text */
+/* opening hours and adress text */
 
-.information {
-
-}
-#hours {
-    padding-left: 3px;
-    padding-right: 3px;
+.information p{
+    text-align: center;
 }
 
-#adress {
-    
-}
 
 /* Home page (index.html) */
 
@@ -486,6 +479,8 @@ input {
         color: #1a0b94;
     }
 
+
+    /* opening hours text */
 
 
 
