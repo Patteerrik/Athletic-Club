@@ -152,6 +152,19 @@ footer ul li a {
     list-style-type: none;
 }
 
+/* opening hours text */
+
+.information {
+
+}
+#hours {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#adress {
+    
+}
 
 /* Home page (index.html) */
 
@@ -535,7 +548,7 @@ input {
 
     /* Sign up page (inspiration.html) */
 
-    /* Main */
+   
 
     #hanging {
         height:35vh;
