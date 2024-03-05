@@ -1,7 +1,7 @@
 # Athletic Club
 
 
-![Alt text](assets/images/readme-images/AmIresponsive2.png)
+![Alt text](assets/images/readme-images/Am%20I%20responsive%20(Readme).png)
 
 * Athletic Club is a gym site that provides membership and seminars. The site gives the user a brief explanation of who they are and what they offer. It aims to help potential members reach their goals
 * This site is for anyone who wants to improve their physique and overall health
@@ -36,6 +36,7 @@
 ![Alt text](assets/images/readme-images/Home%20page%20(Readme).png)
 
 * The home page give the user an understanding of what Athletic club offer and a sense of welcome which is the goal of the front page. A serious background combined with confidence inspiring text.
+* Address and opening hours are also shown
 
 
 
@@ -57,9 +58,10 @@
 
 
 ## Inspiration page
-![Alt text](assets/images/readme-images/Inspiration%20page%20(Readme).png)
+![Alt text](assets/images/readme-images/Inspiration%20(Readme).png)
 
 * This section provides the user with several health and psychological benefits on why they should consider to start exercising
+* It also have a time table so that the user can see which classes and times are offered
 
 
 
