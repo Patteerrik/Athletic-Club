@@ -772,6 +772,10 @@ table, td{
         height:3rem;
     }
 
+    .benefits{
+        padding-bottom:2rem;
+    }
+
     .mood {
         font-size: 20px;
         width: 60%;
@@ -916,15 +920,30 @@ table, td{
     
 
     
-    /* opening hours text */
+   /* opening hours text */
 
-    #information {
-        line-height:3rem;
+   #information h3 {
+    line-height:2rem;
+    padding-right:5rem;
+    font-size:28px;
+    
+
     }
 
-    #adress h3 {
-        padding-right:5rem;
-    }
+
+
+#adress p{
+    font-size:26px;
+}
+
+#hours h3 {
+    padding-left:1.3rem;
+}
+
+#hours p{
+    font-size:26px;
+}
+
 
 
  /* Inspiration page (member.html) */
