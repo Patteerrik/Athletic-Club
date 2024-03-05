@@ -545,13 +545,36 @@ input {
     }
 
 
-    /* Inspiration page (member.html) */
+   /* Inspiration page (member.html) */
+
+   table {
+    width:90%;
+    
+    
+}
+
+table, th{
+    font-size:18px;
+    
+}
+
+
+table, td{
+    font-size:18px;
+}
+
+#timetable {
+    padding-bottom:3rem;
+    
+   
+
 
     div h3 {
         text-align:center
         
         
     }
+    
  
      .mood {
          
@@ -739,6 +762,16 @@ input {
 
 
     /* Inspiration page (member.html) */
+
+    table th {
+        height:3rem;
+        
+        
+    }
+
+    table tr {
+        height:3rem;
+    }
 
     .mood {
         font-size: 20px;
