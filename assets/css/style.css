@@ -191,12 +191,30 @@ footer ul li a {
 
 /* Inspiration page (member.html) */
 
-.center {
+#center {
     margin-left: auto;
     margin-right: auto;
+    background-color:##fdfcfb;
+}
+table, th {
+    font-size: 12px;
+  
+    
 }
 table, th, td {
     border: 1px solid black;
+    font-size: 12px;
+}
+
+tr:nth-child(even) {
+    background-color:#cee1f2
+}
+
+div h3 {
+    text-align:center;
+    margin-top:1rem;
+    
+    
 }
 
 div h3 {
