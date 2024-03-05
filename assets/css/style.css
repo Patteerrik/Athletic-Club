@@ -485,7 +485,7 @@ input {
 
     #information {
         display: flex;
-        justify-content:space-between;
+        justify-content:space-around;
         
         
         
@@ -717,7 +717,7 @@ input {
         padding: 1rem;
         color: #6f6161;
         text-align: center;
-        box-shadow: 10px 10px 5px #e3e8ec;
+        box-shadow: 10px 10px 5px #82a3be;
 
 
     }
@@ -732,7 +732,7 @@ input {
         padding: 1rem;
         color: #6f6161;
         text-align: center;
-        box-shadow: 10px 10px 5px #e3e8ec;
+        box-shadow: 10px 10px 5px #82a3be;
 
 
     }
@@ -748,7 +748,7 @@ input {
         padding: 1rem;
         color: #6f6161;
         text-align: center;
-        box-shadow: 10px 10px 5px #e3e8ec;
+        box-shadow: 10px 10px 5px #82a3be;
 
     }
 
@@ -762,7 +762,7 @@ input {
         padding: 1rem;
         color: #6f6161;
         text-align: center;
-        box-shadow: 10px 10px 5px #e3e8ec;
+        box-shadow: 10px 10px 5px #82a3be;
 
     }
 
@@ -852,6 +852,17 @@ input {
         color: #1a0b94;
     }
 
+    
+    /* opening hours text */
+
+    #information {
+        line-height:3rem;
+    }
+
+    #adress h3 {
+        padding-right:5rem;
+    }
+
 
  /* Inspiration page (member.html) */
 
@@ -867,7 +878,7 @@ input {
         padding: 1rem;
         color: #6f6161;
         text-align: center;
-        box-shadow: 10px 10px 5px #e3e8ec;
+        box-shadow: 10px 10px 5px #82a3be;
 
 
 }
@@ -882,7 +893,7 @@ input {
         padding: 1rem;
         color: #6f6161;
         text-align: center;
-        box-shadow: 10px 10px 5px #e3e8ec;
+        box-shadow: 10px 10px 5px #82a3be;
 
 }
 
@@ -897,7 +908,7 @@ input {
         padding: 1rem;
         color: #6f6161;
         text-align: center;
-        box-shadow: 10px 10px 5px #e3e8ec;
+        box-shadow: 10px 10px 5px #82a3be;
 
 }
 
@@ -911,7 +922,7 @@ input {
         padding: 1rem;
         color: #6f6161;
         text-align: center;
-        box-shadow: 10px 10px 5px #e3e8ec;
+        box-shadow: 10px 10px 5px #82a3be;
    
 
 }
@@ -996,7 +1007,7 @@ input {
             color: #6f6161;
             text-align: center;
             box-shadow: 10px 10px;
-            box-shadow: 10px 10px 5px #e3e8ec;
+            box-shadow: 10px 10px 5px #82a3be;
     
     
     }
@@ -1009,7 +1020,7 @@ input {
             padding: 1rem;
             color: #6f6161;
             text-align: center;
-            box-shadow: 10px 10px 5px #e3e8ec;
+            box-shadow: 10px 10px 5px #82a3be;
     
     }
     
@@ -1022,7 +1033,7 @@ input {
             padding: 1rem;
             color: #6f6161;
             text-align: center;
-            box-shadow: 10px 10px 5px #e3e8ec;
+            box-shadow: 10px 10px 5px #82a3be;
     
     }
     
@@ -1034,7 +1045,7 @@ input {
             padding: 1rem;
             color: #6f6161;
             text-align: center;
-            box-shadow: 10px 10px 5px #e3e8ec;
+            box-shadow: 10px 10px 5px #82a3be;
        
     
     }
