@@ -154,9 +154,10 @@ footer ul li a {
 
 /* opening hours and adress text */
 
-.information p{
+#information p{
     text-align: center;
 }
+
 
 
 /* Home page (index.html) */
@@ -482,6 +483,33 @@ input {
 
     /* opening hours text */
 
+    #information {
+        display: flex;
+        justify-content:space-between;
+        
+        
+        
+    }
+
+    
+
+    #hours h3 {
+        padding-left:10px
+    }
+
+    #adress h3{
+        padding-right:60px;
+    }
+
+    #hours p{
+        text-align:start;
+        padding-left:20px
+    }
+
+    #adress p{
+        padding-right:20px;
+        text-align:start;
+    }
 
 
     /* Inspiration page (member.html) */
