@@ -26,7 +26,7 @@ body {
 #title {
     font-size: 1.6rem;
     margin-left: 5px;
-    background-color: #fdfcfb;
+    background-color: #f8f5f2;
 }
 
 
@@ -39,7 +39,7 @@ header {
     box-shadow: 0 1px 1px;
     justify-content: space-between;
     align-items: center;
-    background-color: #fdfcfb;
+    background-color: #f8f5f2;
 
 
 
@@ -70,7 +70,7 @@ nav {
     position: absolute;
     display: none;
     top: 100%;
-    background-color: #fdfcfb;;
+    background-color: #f8f5f2;
     width: 100%;
     padding-right: 6px;
     line-height: 25px;
@@ -106,7 +106,7 @@ img {
 /* Main content */
 
 main {
-    background-color: #fdfcfb;
+    background-color:#f8f5f2;
     flex: 1 0 auto;
     width: 100%;
 
@@ -122,7 +122,7 @@ main {
 
 
 footer {
-    background-color:#fdfcfb;
+    background-color:#f8f5f2;
 }
 
 footer ul {
@@ -154,8 +154,13 @@ footer ul li a {
 
 /* opening hours and adress text */
 
+#information h3 {
+    background-color:#f8f5f2;
+}
+
 #information p{
     text-align: center;
+    background-color:#f8f5f2;
 }
 
 
@@ -181,12 +186,9 @@ footer ul li a {
     width: 100%;
     line-height: 2rem;
     color: #000000;
-    background-color: #fdfcfb;
+    background-color: #f8f5f2;
 }
 
-.info em {
-    color: #1a0b94;
-}
 
 
 /* Inspiration page (member.html) */
@@ -210,6 +212,10 @@ tr:nth-child(even) {
     background-color:#cee1f2
 }
 
+.timetable{
+    
+}
+
 div h3 {
     text-align:center;
     margin-top:1rem;
@@ -227,7 +233,7 @@ div h3 {
 
 
 main section div h3{
-    background-color:#fdfcfb;
+    background-color:#f8f5f2;
 }
 
 table {
@@ -242,7 +248,7 @@ table {
     margin-right: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: #fdfcfb;
+    background-color: #f8f5f2;
 }
 
 .confident {
@@ -253,7 +259,7 @@ table {
     margin-right: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color:#fdfcfb;
+    background-color:#f8f5f2;
 }
 
 .health {
@@ -264,7 +270,7 @@ table {
     margin-right: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color:#fdfcfb;
+    background-color:#f8f5f2;
 }
 
 .strong {
@@ -275,12 +281,12 @@ table {
     margin-right: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color:#fdfcfb;
+    background-color:#f8f5f2;
 }
 
 h3,
 p {
-    background-color: #fdfcfb;
+    background-color: #f8f5f2;
     text-align: justify;
     width: auto;
 
@@ -332,7 +338,7 @@ input {
 }
 
 .submit {
-    background-color: #fdfcfb;
+    background-color:#f8f5f2;
     margin-top:2rem;
 }
 
@@ -360,7 +366,7 @@ input {
 
 .contact {
     margin-top:2rem;
-    background-color:#fdfcfb ;
+    background-color:#f8f5f2;
     padding-top:20px
     
     
@@ -369,7 +375,7 @@ input {
 .contact p {
     text-align:center;
     line-height:4rem;
-    background-color:#fdfcfb;
+    background-color:#f8f5f2;
     font-size:18px;
 }
 
@@ -493,21 +499,16 @@ input {
         margin-right: 5px;
         padding: 1rem;
         font-size: 1.3rem;
-        color: #6f6161;
+        color: black;
         text-align: center;
     }
 
-    .info em {
-        color: black;
-    }
+    
 
 
 
 
-
-    .info em {
-        color: #1a0b94;
-    }
+    
 
 
     /* opening hours text */
@@ -872,14 +873,12 @@ input {
         margin-right: 5px;
         padding: 1rem;
         font-size: 1.3rem;
-        color: #6f6161;
+        color: black;
         text-align: center;
     
     }
 
-    .info em {
-        color: #1a0b94;
-    }
+    
 
     
     /* opening hours text */
@@ -1019,7 +1018,7 @@ input {
         margin-left: 13rem;
         padding: 1rem;
         font-size: 1.5rem;
-        color: #6f6161;
+        color: black;
         text-align: center;
     
     }
