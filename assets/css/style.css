@@ -191,6 +191,14 @@ footer ul li a {
 
 /* Inspiration page (member.html) */
 
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+table, th, td {
+    border: 1px solid black;
+}
+
 div h3 {
     text-align:center;
     margin-top:1rem;
@@ -204,6 +212,9 @@ main section div h3{
     background-color:#fdfcfb;
 }
 
+table {
+    border: 1px solid black;
+}
 
 .mood {
     font-size: 15px;
