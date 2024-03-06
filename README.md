@@ -182,7 +182,7 @@
 
 ### Home Page
 
-![Alt text](assets/images/readme-images/Home%20page%20(lighthouse).png)
+![Alt text](assets/images/readme-images/Home%20page%20(Lighthouse).png)
 
 
 ### Inspiration page
