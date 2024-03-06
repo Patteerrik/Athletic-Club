@@ -187,12 +187,12 @@
 
 ### Inspiration page
 
-![Alt text](assets/images/readme-images/Inspiration%20page%20(lighthouse).png)
+![Alt text](assets/images/readme-images/Inspiration%20page%20(Lighthouse).png)
 
 
 ### Sign up page
 
-![Alt text](assets/images/readme-images/Sign%20up%20page%20(lighthouse).png)
+![Alt text](assets/images/readme-images/Sign%20up%20page%20(Lighthouse).png)
 
 
 ## Deployment
