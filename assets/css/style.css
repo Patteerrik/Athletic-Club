@@ -33,7 +33,6 @@ body {
 header {
     position: fixed;
     width: 100%;
-    background-color: white;
     display: flex;
     align-items: baseline;
     box-shadow: 0 1px 1px;
@@ -55,7 +54,7 @@ header a {
 }
 
 #title {
-    color: rgba(57, 56, 56, 0.997);
+    color: black;
     letter-spacing: 2px;
     text-transform: uppercase;
     text-decoration: none;
@@ -70,7 +69,7 @@ nav {
     position: absolute;
     display: none;
     top: 100%;
-    background-color: #f8f5f2;
+    background-color: #f8f5f2db;
     width: 100%;
     padding-right: 6px;
     line-height: 25px;
@@ -99,14 +98,14 @@ nav {
 
 
 img {
-    height: 40vh;
+    height: 38vh;
     width: 100%;
 }
 
 /* Main content */
 
 main {
-    background-color:#f8f5f2;
+    background-color:white;
     flex: 1 0 auto;
     width: 100%;
 
@@ -147,20 +146,19 @@ footer ul li a {
 
 .home {
     text-align: end;
-    margin-right: 3px;
-    display: grid;
-    list-style-type: none;
+    list-style-type:none;
+    
 }
 
 /* opening hours and adress text */
 
 #information h3 {
-    background-color:#f8f5f2;
+    background-color:white;
 }
 
 #information p{
     text-align: center;
-    background-color:#f8f5f2;
+    background-color:white;
 }
 
 
@@ -180,13 +178,10 @@ footer ul li a {
     font-size: 15px;
     text-align: center;
     padding: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 2px;
-    width: 100%;
+    
     line-height: 2rem;
-    color: #000000;
-    background-color: #f8f5f2;
+    color: black;
+    background-color: white;
 }
 
 #timetable {
@@ -199,7 +194,7 @@ footer ul li a {
 #center {
     margin-left: auto;
     margin-right: auto;
-    background-color:#fdfcfb;
+    background-color:#f8f5f27e;
 }
 table, th {
     font-size: 12px;
@@ -234,7 +229,7 @@ div h3 {
 
 
 main .benefits div h3{
-    background-color:#f8f5f2;
+    background-color:white;
 }
 
 table {
@@ -249,7 +244,7 @@ table {
     margin-right: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: #f8f5f2;
+    background-color: white;
 }
 
 .confident {
@@ -260,7 +255,7 @@ table {
     margin-right: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color:#f8f5f2;
+    background-color:white;
 }
 
 .health {
@@ -271,7 +266,7 @@ table {
     margin-right: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color:#f8f5f2;
+    background-color:white;
 }
 
 .strong {
@@ -282,7 +277,7 @@ table {
     margin-right: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color:#f8f5f2;
+    background-color:white;
 }
 
 h3,
@@ -339,7 +334,7 @@ input {
 }
 
 .submit {
-    background-color:#f8f5f2;
+    background-color:white;
     margin-top:2rem;
 }
 
@@ -469,7 +464,7 @@ input {
    /* Main */
 
     img {
-    height: 40vh
+    height: 40vh;
 }
 
     /* Footer */
@@ -500,8 +495,7 @@ input {
         margin-right: 5px;
         padding: 1rem;
         font-size: 1.3rem;
-        color: black;
-        text-align: center;
+        
     }
 
     
@@ -574,6 +568,10 @@ table, td{
         
     }
 
+    #start {
+        padding-left:3rem;
+        padding-right:3rem;
+    }
  
      .mood {
          
@@ -635,7 +633,7 @@ table, td{
     .submit {
         margin-top: 3rem;
         line-height: 3rem;
-        background-color: #f8f5f2;
+        background-color: white;
 
 
     }
@@ -755,7 +753,7 @@ table, td{
 
     .info {
         font-size: 20px;
-        width: 100%;
+        width: ;
     }
 
 
@@ -912,8 +910,9 @@ table, td{
         margin-right: 5px;
         padding: 1rem;
         font-size: 1.3rem;
-        color: black;
         text-align: center;
+        
+        
     
     }
 
@@ -1070,10 +1069,8 @@ table, td{
         width: 80%;
         line-height: 3.2rem;
         margin-left: 15rem;
-        padding: 1re;
         font-size: 1.5rem;
-        color: black;
-        text-align: center;
+        
     
     }
 
