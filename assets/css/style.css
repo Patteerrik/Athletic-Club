@@ -15,10 +15,6 @@ body {
     min-height: 100vh;
     font-family: "Oswald", sans-serif;
     width: 100%;
-    
-
-
-
 }
 
 /* Header */
@@ -29,7 +25,6 @@ body {
     background-color: #f8f5f2;
 }
 
-
 header {
     position: fixed;
     width: 100%;
@@ -39,18 +34,10 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #f8f5f2;
-
-
-
-
 }
 
 header a {
     text-decoration: none;
-    
-
-
-
 }
 
 #title {
@@ -58,11 +45,6 @@ header a {
     letter-spacing: 2px;
     text-transform: uppercase;
     text-decoration: none;
-
-
-
-
-
 }
 
 nav {
@@ -73,9 +55,6 @@ nav {
     width: 100%;
     padding-right: 6px;
     line-height: 25px;
-
-
-
 }
 
 #nav:checked~nav {
@@ -93,10 +72,6 @@ nav {
     padding-right: 10px;
 }
 
-
-
-
-
 img {
     height: 38vh;
     width: 100%;
@@ -111,10 +86,6 @@ main {
 
     text-align: center;
     font-size: 1.2rem;
-
-
-
-
 }
 
 /* Footer */
@@ -133,21 +104,17 @@ footer ul {
     
     padding: 4px;
     list-style-type: none;
-    
 }
-
 
 footer ul li a {
     font-size: 2rem;
 }
-
 
 /* Naviation menu */
 
 .home {
     text-align: end;
     list-style-type:none;
-    
 }
 
 /* opening hours and adress text */
@@ -161,24 +128,18 @@ footer ul li a {
     background-color:white;
 }
 
-
-
 /* Home page (index.html) */
 
 
 #about {
     font-size: 20px;
     margin-top: 1rem;
-
-
-
 }
 
 .info {
     font-size: 15px;
     text-align: center;
     padding: 10px;
-    
     line-height: 2rem;
     color: black;
     background-color: white;
@@ -198,9 +159,8 @@ footer ul li a {
 }
 table, th {
     font-size: 12px;
-  
-    
 }
+
 table, th, td {
     border: 1px solid black;
     font-size: 12px;
@@ -210,23 +170,15 @@ tr:nth-child(even) {
     background-color:#cee1f2
 }
 
-
-
 div h3 {
     text-align:center;
     margin-top:1rem;
-    
-    
 }
 
 div h3 {
     text-align:center;
     margin-top:1rem;
-    
-    
 }
-
-
 
 main .benefits div h3{
     background-color:white;
@@ -285,11 +237,7 @@ p {
     background-color: #f8f5f2;
     text-align: justify;
     width: auto;
-
 }
-
-
-
 
 /* Sign up page (inpiration.html) */
 
@@ -303,7 +251,6 @@ p {
     margin-left: 2px;
     margin-right: 2px;
     margin-top:1rem;
-
 }
 
 /* Styling the sign up form */
@@ -314,23 +261,12 @@ input {
     padding: 4px;
     border-radius: 1px;
     margin: auto;
-
     width: 80%;
-
-
-
 }
-
-
 
 .signup {
     font-size: 15px;
     color: black;
-
-
-
-
-
 }
 
 .submit {
@@ -346,8 +282,6 @@ input {
     margin-top: 1rem;
     font-weight: bold;
     padding-left: 10px;
-
-
 }
 
 #question {
@@ -356,9 +290,7 @@ input {
     margin-top: 1rem;
 }
 
-
 /* Contact page */
-
 
 .contact {
     margin-top:2rem;
@@ -375,7 +307,6 @@ input {
     font-size:18px;
 }
 
-
 /* 404 page */
 
 .notexist {
@@ -385,8 +316,6 @@ input {
     margin-top:4rem;
     padding-left:5px;
     padding-right:5px;
-    
-   
 }
 
 .notexist h1 {
@@ -402,9 +331,7 @@ input {
 .notfound {
 
       text-align: center;
-
 }
-
 
 /* For smaller to medium screen sizes from 768px width and up */
 
@@ -415,79 +342,65 @@ input {
     #title {
         font-size: 2.3rem;
         margin-left: 5px;
-
-
-    }
+}
     
     /* Adding a line under nav buttons */
 
-    .active {
+.active {
         border-bottom: 2px solid rgba(128, 0, 128, 0.862);
-    }
+}
 
-    /* Header */
+/* Header */
 
-    nav {
+nav {
         display: block;
         position: relative;
         width: fit-content;
         padding-left: 280px;
+}
 
-
-
-
-    }
-
-   
-
-
-    .home {
+   .home {
         display: flex;
         font-size: 1.2rem;
 
-    }
+}
 
-
-
-
-    .home a {
+.home a {
         letter-spacing: 1px;
         display: flex;
         font-size: 1.2rem;
         margin-right: 10px;
-    }
+}
 
-    .navclass {
+.navclass {
         display: none;
-    }
+}
 
-   /* Main */
+/* Main */
 
-    img {
+img {
     height: 40vh;
 }
 
-    /* Footer */
+/* Footer */
 
-    #socials   {
+#socials   {
         font-size:2rem;
         letter-spacing:4rem;
         text-align:center;
         padding-left:3rem;
-        
-        
-    }
+}
 
 
-    /* Home page (index.html) */
+/* Home page (index.html) */
 
 
-    #about {
+#about {
         
         font-size: 20px;
-    }
+}
 
-    .info {
+.info {
         
         width: fit-content;
         line-height: 50px;
@@ -495,61 +408,42 @@ input {
         margin-right: 5px;
         padding: 1rem;
         font-size: 1.3rem;
-        
-    }
+}
 
-    
-
-
-
-
-    
-
-
-    /* opening hours text */
+/* opening hours text */
 
     #information {
         display: flex;
         justify-content:space-around;
-        
-        
-        
-    }
+}
 
-    
-
-    #hours h3 {
+#hours h3 {
         padding-left:10px
-    }
+}
 
-    #adress h3{
+#adress h3{
         padding-right:60px;
-    }
+}
 
-    #hours p{
+#hours p{
         text-align:start;
         padding-left:20px
-    }
+}
 
-    #adress p{
+#adress p{
         padding-right:20px;
         text-align:start;
-    }
+}
 
+/* Inspiration page (member.html) */
 
-   /* Inspiration page (member.html) */
-
-   table {
+table {
     width:90%;
-    
-    
 }
 
 table, th{
     font-size:18px;
-    
 }
-
 
 table, td{
     font-size:18px;
@@ -557,379 +451,325 @@ table, td{
 
 #timetable {
     padding-bottom:3rem;
-    }
-    
-   
-
-
-    div h3 {
-        text-align:center;
-        
-        
-    }
-
-    #start {
-        padding-left:3rem;
-        padding-right:3rem;
-    }
- 
-     .mood {
-         
-         width: 80%;
-         line-height: 20px;
-         margin: auto;
-         padding: 1.5rem;
-         font-size: 1.3rem;
-         color: black;
-         text-align: center;
-     }
- 
- 
-     .confident {
-         
-         width: 80%;
-         line-height: 20px;
-         margin: auto;
-         padding: 1.5rem;
-         font-size: 1.3rem;
-         color: black;
-         text-align: center;
-     }
- 
- 
-     .health {
-         
-         width: 80%;
-         line-height: 20px;
-         margin: auto;
-         padding: 1.5rem;
-         font-size: 1.3rem;
-         color: black;
-         text-align: center;
- 
-     }
- 
-     .strong {
-         
-         width: 80%;
-         line-height: 20px;
-         margin: auto;
-         padding: 1.5rem;
-         font-size: 1.3rem;
-         color: black;
-         text-align: center;
-     }
-
-
-
-    /* Sign up page (inspiration.html) */
-
-   
-
-    #hanging {
-        height:35vh;
-    }
-
-    .submit {
-        margin-top: 3rem;
-        line-height: 3rem;
-        background-color: white;
-
-
-    }
-
-    .signup {
-        line-height: 20px;
-    }
-
-    input {
-        width: 300px;
-    }
-
-    #become {
-        font-size: 22px;
-        margin-bottom: 3rem;
-        line-height: 4rem;
-    }
-
-
-
-    .button {
-        width: 6rem;
-        height: 2rem;
-
-    }
-
-    #question {
-        height: 90px;
-        width: 400px;
-
-
-
-
-    }
-
-    /* Contact page */
-
-    .contact {
-        margin-top:2rem;
-        background-color:#fdfcfb ;
-        padding-top:50px;
-        
-        
-    }
-    
-    .contact p {
-        text-align:center;
-        line-height:7rem;
-        background-color:#fdfcfb;
-        font-size:1.3rem;
-    }
-
-     /* 404 page */
-
-     .notexist {
-        padding:7rem;
-        line-height:6rem;
-    }
-    
-
 }
-/* For medium screen sizes from 992px width and up */
+    
+   
 
+
+div h3 {
+    text-align:center;
+}
+
+#start {
+    padding-left:3rem;
+    padding-right:3rem;
+}
+ 
+.mood {
+         
+    width: 80%;
+    line-height: 20px;
+    margin: auto;
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    color: black;
+    text-align: center;
+}
+ 
+ 
+.confident {
+         
+    width: 80%;
+    line-height: 20px;
+    margin: auto;
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    color: black;
+    text-align: center;
+}
+ 
+.health {
+         
+    width: 80%;
+    line-height: 20px;
+    margin: auto;
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    color: black;
+    text-align: center;
+ 
+}
+ 
+.strong {
+         
+    width: 80%;
+    line-height: 20px;
+    margin: auto;
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    color: black;
+    text-align: center;
+}
+
+/* Sign up page (inspiration.html) */
+
+   
+
+#hanging {
+    height:35vh;
+}
+
+.submit {
+    margin-top: 3rem;
+    line-height: 3rem;
+    background-color: white;
+}
+
+.signup {
+    line-height: 20px;
+}
+
+input {
+    width: 300px;
+}
+
+#become {
+    font-size: 22px;
+    margin-bottom: 3rem;
+    line-height: 4rem;
+}
+
+
+
+.button {
+    width: 6rem;
+    height: 2rem;
+}
+
+#question {
+    height: 90px;
+    width: 400px;
+}
+
+/* Contact page */
+
+.contact {
+    margin-top:2rem;
+    background-color:#fdfcfb ;
+    padding-top:50px;
+}
+    
+.contact p {
+    text-align:center;
+    line-height:7rem;
+    background-color:#fdfcfb;
+    font-size:1.3rem;
+}
+
+/* 404 page */
+
+.notexist {
+    padding:7rem;
+    line-height:6rem;
+}
+    
+}
+
+/* For medium screen sizes from 992px width and up */
 
 @media screen and (min-width: 992px) {
 
+/* Header */
 
-    /* Header */
+#title {
+    font-size: 3rem;
+    margin-left: 10px;
+}
 
+.home {
+    display: flex;
+    font-size: 1.5rem;
+}
 
-    #title {
-        font-size: 3rem;
-        margin-left: 10px;
-
-
-    }
-
-    .home {
-        display: flex;
-        font-size: 1.5rem;
-    }
-
-    .home a {
-        font-size: 1.6rem;
-        margin-right: 40px;
-    }
+.home a {
+    font-size: 1.6rem;
+    margin-right: 40px;
+}
     
-    /* Creates a hover effect to show user link is clickable */
+/* Creates a hover effect to show user link is clickable */
 
-    .home a:hover {
-        text-decoration: underline;
-    }
+.home a:hover {
+    text-decoration: underline;
+}
 
-    /* Background image */
+/* Background image */
 
+img {
+    height: 60vh;
+    object-fit: cover;
+    margin-top: -1.4rem;
+}
 
-    img {
-        height: 60vh;
-        object-fit: cover;
-        margin-top: -1.4rem;
-    }
-
-    /* Main content */
-
-
-   .benefits {
-        display:flex;
-    }
+/* Main content */
 
 
-    /* Home page (index.html) */
+.benefits {
+    display:flex;
+}
 
-    #about {
-        font-size: 22px;
+/* Home page (index.html) */
 
-    }
+#about {
+    font-size: 22px;
 
-    .info {
-        font-size: 20px;
-        width: ;
-    }
+}
 
+.info {
+    font-size: 20px;
+}
 
+/* Inspiration page (member.html) */
 
-    /* Inspiration page (member.html) */
+table th {
+    height:3rem;
+}
 
-    table th {
-        height:3rem;
-        
-        
-    }
+table tr {
+    height:3rem;
+}
 
-    table tr {
-        height:3rem;
-    }
+.benefits{
+    padding-bottom:2rem;
+}
 
-    .benefits{
-        padding-bottom:2rem;
-    }
+.mood {
+    font-size: 20px;
+    width: 60%;
+    line-height: 25px;
+    margin-left: 3px;
+    margin-right: 5px;
+    margin: auto;
+    padding: 1rem;
+    color: black;
+    text-align: center;
+    box-shadow: 10px 10px 5px #82a3be;
+}
 
-    .mood {
-        font-size: 20px;
-        width: 60%;
-        line-height: 25px;
-        margin-left: 3px;
-        margin-right: 5px;
-        margin: auto;
-        padding: 1rem;
-        color: black;
-        text-align: center;
-        box-shadow: 10px 10px 5px #82a3be;
-
-
-    }
-
-    .confident {
-        font-size: 20px;
-        width: 60%;
-        line-height: 25px;
-        margin-left: 3px;
-        margin-right: 5px;
-        margin: auto;
-        padding: 1rem;
-        color: black;
-        text-align: center;
-        box-shadow: 10px 10px 5px #82a3be;
+.confident {
+    font-size: 20px;
+    width: 60%;
+    line-height: 25px;
+    margin-left: 3px;
+    margin-right: 5px;
+    margin: auto;
+    padding: 1rem;
+    color: black;
+    text-align: center;
+    box-shadow: 10px 10px 5px #82a3be;
+}
 
 
-    }
+.health {
+    font-size: 20px;
+    width: 60%;
+    line-height: 25px;
+    margin-left: 3px;
+    margin-right: 5px;
+    margin: auto;
+    padding: 1rem;
+    color: black;
+    text-align: center;
+    box-shadow: 10px 10px 5px #82a3be;
+}
 
+.strong {
+    font-size: 20px;
+    width: 60%;
+    line-height: 25px;
+    margin-left: 3px;
+    margin-right: 5px;
+    margin: auto;
+    padding: 1rem;
+    color: black;
+    text-align: center;
+    box-shadow: 10px 10px 5px #82a3be;
+}
 
-    .health {
-        font-size: 20px;
-        width: 60%;
-        line-height: 25px;
-        margin-left: 3px;
-        margin-right: 5px;
-        margin: auto;
-        padding: 1rem;
-        color: black;
-        text-align: center;
-        box-shadow: 10px 10px 5px #82a3be;
+/* Footer content */
 
-    }
-
-    .strong {
-        font-size: 20px;
-        width: 60%;
-        line-height: 25px;
-        margin-left: 3px;
-        margin-right: 5px;
-        margin: auto;
-        padding: 1rem;
-        color: black;
-        text-align: center;
-        box-shadow: 10px 10px 5px #82a3be;
-
-    }
-
-
-    /* Footer content */
-
-    footer ul a {
-        padding: 2px 2px 0;
-        font-size: 3.5rem;
-    }
-
-    
-
-
+footer ul a {
+    padding: 2px 2px 0;
+    font-size: 3.5rem;
+}
 
     /* Sign up page (inspiration.html) */
 
-    #hanging {
-        height:55vh;
-    }
-
-    .submit {
-        margin-top: 5rem;
-    }
-
-    /* Contact page */
-
-    .contact {
-    
-        background-color:#fdfcfb ;
-        padding-top:100px;
-        font-size:28px;
-        
-        
-    }
-    
-        .contact p {
-        text-align:center;
-        line-height:7rem;
-        background-color:#fdfcfb;
-        font-size:26px;
-    }
-
-     /* 404 page */
-
-     .notexist {
-        padding:7rem;
-        line-height:6rem;
-    }
-
-
-
+#hanging {
+    height:55vh;
 }
+
+.submit {
+    margin-top: 5rem;
+}
+
+/* Contact page */
+
+.contact {
+    background-color:#fdfcfb ;
+    padding-top:100px;
+    font-size:28px;
+}
+    
+.contact p {
+    text-align:center;
+    line-height:7rem;
+    background-color:#fdfcfb;
+    font-size:26px;
+}
+
+/* 404 page */
+
+.notexist {
+    padding:7rem;
+    line-height:6rem;
+}
+}
+
 /* For medium to larger screen sizes from 1200px width and up */
 
 @media screen and (min-width: 1200px) {
 
-    /* Main */
+/* Main */
 
-    .benefits {
-        display:flex;
-        font-size:26px;
-        line-height:5rem;
-    }
+.benefits {
+    display:flex;
+    font-size:26px;
+    line-height:5rem;
+}
 
-    /* Home page (index.html) */
+/* Home page (index.html) */
 
-    #about {
-        
-        font-size: 1.8rem;
-    }
+#about {
+    font-size: 1.8rem;
+}
 
-    .info {
-        
-        width: fit-content;
-        line-height: 50px;
-        margin-left: 3px;
-        margin-right: 5px;
-        padding: 1rem;
-        font-size: 1.3rem;
-        text-align: center;
-        
-        
-    
-    }
+.info {
+    width: fit-content;
+    line-height: 50px;
+    margin-left: 3px;
+    margin-right: 5px;
+    padding: 1rem;
+    font-size: 1.3rem;
+    text-align: center;
+}
 
-    
+/* opening hours text */
 
-    
-   /* opening hours text */
-
-   #information h3 {
+#information h3 {
     line-height:2rem;
     padding-right:5rem;
     font-size:28px;
-    
-
-    }
-
-
+}
 
 #adress p{
     font-size:26px;
@@ -943,190 +783,158 @@ table, td{
     font-size:26px;
 }
 
-
-
- /* Inspiration page (member.html) */
-
-
+/* Inspiration page (member.html) */
 
 .mood {
-   font-size: 24px;
-        width: 60%;
-        line-height: 28px;
-        margin-left: 3px;
-        margin-right: 5px;
-        margin: auto;
-        padding: 1rem;
-        color: black;
-        text-align: center;
-        box-shadow: 10px 10px 5px #82a3be;
-
-
+    font-size: 24px;
+    width: 60%;
+    line-height: 28px;
+    margin-left: 3px;
+    margin-right: 5px;
+    margin: auto;
+    padding: 1rem;
+    color: black;
+    text-align: center;
+    box-shadow: 10px 10px 5px #82a3be;
 }
 
 .confident {
    font-size: 24px;
-        width: 60%;
-        line-height: 28px;
-        margin-left: 3px;
-        margin-right: 5px;
-        margin: auto;
-        padding: 1rem;
-        color: black;
-        text-align: center;
-        box-shadow: 10px 10px 5px #82a3be;
+    width: 60%;
+    line-height: 28px;
+    margin-left: 3px;
+    margin-right: 5px;
+    margin: auto;
+    padding: 1rem;
+    color: black;
+    text-align: center;
+    box-shadow: 10px 10px 5px #82a3be;
 
 }
 
-
 .health {
    font-size: 24px;
-        width: 60%;
-        line-height: 28px;
-        margin-left: 3px;
-        margin-right: 5px;
-        margin: auto;
-        padding: 1rem;
-        color: black;
-        text-align: center;
-        box-shadow: 10px 10px 5px #82a3be;
-
+    width: 60%;
+    line-height: 28px;
+    margin-left: 3px;
+    margin-right: 5px;
+       margin: auto;
+    padding: 1rem;
+    color: black;
+    text-align: center;
+    box-shadow: 10px 10px 5px #82a3be;
 }
 
 .strong {
    font-size: 24px;
-        width: 60%;
-        line-height: 28px;
-        margin-left: 3px;
-        margin-right: 5px;
-        margin: auto;
-        padding: 1rem;
-        color: black;
-        text-align: center;
-        box-shadow: 10px 10px 5px #82a3be;
-   
-
+    width: 60%;
+    line-height: 28px;
+    margin-left: 3px;
+    margin-right: 5px;
+    margin: auto;
+    padding: 1rem;
+    color: black;
+    text-align: center;
+    box-shadow: 10px 10px 5px #82a3be;
 }
 
-    /* Sign up page (inspiration.html) */
+/* Sign up page (inspiration.html) */
 
-    #hanging {
-        height:55vh;
-    }
-
-
-    #become {
-        font-size: 26px;
-        line-height: 45px;
-        margin-bottom: 0;
-
-    }
-
-    /* Contact page */
-
-    .contact {
-    
-        background-color:#fdfcfb;
-        padding-top:150px;
-        font-size:26px
-
-
+#hanging {
+    height:55vh;
 }
 
-    .contact p {
+#become {
+    font-size: 26px;
+    line-height: 45px;
+    margin-bottom: 0;
+}
 
-    text-align:center;
-    line-height:7rem;
+/* Contact page */
+
+.contact {
     background-color:#fdfcfb;
-    font-size: 24px;
+    padding-top:150px;
+    font-size:26px;
+}
+
+.contact p {
+text-align:center;
+line-height:7rem;
+background-color:#fdfcfb;
+font-size: 24px;
 }
 }
 
 @media screen and (min-width: 2270px) {
 
-    /* Main */
+/* Main */
 
-    .benefits {
-        display:flex;
-        font-size:26px;
-        line-height:6rem;
-        margin-left: 5rem;
+.benefits {
+    display:flex;
+    font-size:26px;
+    line-height:6rem;
+    margin-left: 5rem;
+}
 
-    }
+/* Home page (index.html) */
 
+#about {
+    font-size: 1.8rem;
+}
 
-    /* Home page (index.html) */
+.info {
+    width: 80%;
+    line-height: 3.2rem;
+    margin-left: 15rem;
+    font-size: 1.5rem;
+}
 
-
-    #about {
-        
-        font-size: 1.8rem;
-        
-    }
-
-    .info {
-        
-        width: 80%;
-        line-height: 3.2rem;
-        margin-left: 15rem;
-        font-size: 1.5rem;
-        
-    
-    }
-
-    /* Inspiration page (member.html) */
+/* Inspiration page (member.html) */
     
     
-    .mood {
-            font-size: 26px;
-            width: 60%;
-            line-height: 30px;
-            margin: auto;
-            padding: 1rem;
-            color: black;
-            text-align: center;
-            box-shadow: 10px 10px;
-            box-shadow: 10px 10px 5px #82a3be;
+.mood {
+    font-size: 26px;
+    width: 60%;
+    line-height: 30px;
+    margin: auto;
+    padding: 1rem;
+    color: black;
+    text-align: center;
+    box-shadow: 10px 10px;
+    box-shadow: 10px 10px 5px #82a3be;
+}
     
+.confident {
+    font-size: 26px;
+    width: 60%;
+    line-height: 30px;
+    margin: auto;
+    padding: 1rem;
+    color: black;
+    text-align: center;
+    box-shadow: 10px 10px 5px #82a3be;
+}
     
-    }
+.health {
+    font-size: 26px;
+    width: 60%;
+    line-height: 30px;
+    margin: auto;
+    padding: 1rem;
+    color: black;
+    text-align: center;
+    box-shadow: 10px 10px 5px #82a3be;
+}
     
-    .confident {
-       font-size: 26px;
-            width: 60%;
-            line-height: 30px;
-            margin: auto;
-            padding: 1rem;
-            color: black;
-            text-align: center;
-            box-shadow: 10px 10px 5px #82a3be;
-    
-    }
-    
-    
-    .health {
-       font-size: 26px;
-            width: 60%;
-            line-height: 30px;
-            margin: auto;
-            padding: 1rem;
-            color: black;
-            text-align: center;
-            box-shadow: 10px 10px 5px #82a3be;
-    
-    }
-    
-    .strong {
-       font-size: 26px;
-            width: 60%;
-            line-height: 30px;
-            margin: auto;
-            padding: 1rem;
-            color: black;
-            text-align: center;
-            box-shadow: 10px 10px 5px #82a3be;
-       
-    
-    }
-    
-    }
+.strong {
+    font-size: 26px;
+    width: 60%;
+    line-height: 30px;
+    margin: auto;
+    padding: 1rem;
+    color: black;
+    text-align: center;
+    box-shadow: 10px 10px 5px #82a3be;
+}
+}
