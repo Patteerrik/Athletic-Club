@@ -22,7 +22,7 @@
 ![Alt text](assets/images/readme-images/Navigation%20bar%20(Readme).png)
 
 
-* The navigation is userfriendly and provides links to Home, Ispiration and Sign up pages.
+* The navigation is userfriendly and provides links to Home, Inspiration and Sign up pages.
 
 * It will be responisve on all devices. 
 
@@ -58,7 +58,7 @@
 
 
 ## Inspiration page
-![Alt text](assets/images/readme-images/Inspiration%20(Readme).png)
+![Alt text](assets/images/readme-images/Inspiration%20page%20(Readme).png)
 
 * This section provides the user with several health and psychological benefits on why they should consider to start exercising
 * It also have a time table so that the user can see which classes and times are offered
@@ -159,12 +159,12 @@
 * Inpiration page 
   * 12 errors were found and fixed using [W3C VALIDATOR](https://validator.w3.org/)
 
-![Alt text](assets/images/readme-images/Inspiration%20page%20Html%20checker.png)
+![Alt text](assets/images/readme-images/Inspiration%20page%20(Html%20checker).png)
 
 * Sign up page
   * 12 errors were found and fixed using [W3C VALIDATOR](https://validator.w3.org/)
 
-![Alt text](assets/images/readme-images/Sign%20up%20page%20Html%20checker.png)
+![Alt text](assets/images/readme-images/Sign%20up%20page%20(Html%20checker).png)
 
 * Contact page
   * No errors were found using [W3C VALIDATOR](https://validator.w3.org/)
@@ -217,6 +217,8 @@
 * [Favicon.io](https://favicon.io/) was used to create the favicon
 * [Pexels](https://www.pexels.com/sv-se/sok/gym/) was used to download images for the site
 * [I love img](https://www.iloveimg.com/resize-image) was used to resize the images
+* [Convertio](https://convertio.co/jpg-webp/) was used to convert images for higher score on 
+  lighthouse
 * [W3schools](https://www.w3schools.com/) whas used to create boxshadow on inspiration page
 * "Love runnig" helped with getting the favicon in place
 * [Brocode](https://www.youtube.com/watch?v=VQWu4e6agPc&list=WL&index=6&t=53s) used to create a dropdown menu
