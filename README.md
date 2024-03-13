@@ -1,7 +1,7 @@
 # Athletic Club
 
 
-![Alt text](assets/images/readme-images/Am%20I%20responsive%20(Readme).png)
+![Alt text](assets/images/readme-images/Am-I-responsive-(Readme).png)
 
 * Athletic Club is a gym site that provides membership and seminars. The site gives the user a brief explanation of who they are and what they offer. It aims to help potential members reach their goals
 * This site is for anyone who wants to improve their physique and overall health
@@ -19,7 +19,7 @@
 
 ### Navigation bar 
 
-![Alt text](assets/images/readme-images/Navigation%20bar%20(Readme).png)
+![Alt text](assets/images/readme-images/Navigation-bar-(Readme).png)
 
 
 * The navigation is userfriendly and provides links to Home, Inspiration and Sign up pages.
@@ -33,7 +33,7 @@
 
 
 ### Home page
-![Alt text](assets/images/readme-images/Home%20page%20(Readme).png)
+![Alt text](assets/images/readme-images/Home-page-(Readme).png)
 
 * The home page give the user an understanding of what Athletic club offer and a sense of welcome which is the goal of the front page. A serious background combined with confidence inspiring text.
 * Address and opening hours are also shown
@@ -44,21 +44,21 @@
 
 
 ### Footer
-![Alt text](assets/images/readme-images/Footer%20(Readme).png)
+![Alt text](assets/images/readme-images/Footer-(Readme).png)
 
 * The footer section includes links to social media sites that will open in an new tab.
 * This will give the user an easy way to follow Athletic Club on different social media platforms.
 * The footer section is on all pages.
 
 ### Logo
-![Alt text](assets/images/readme-images/Favicon%20emoji%20(Readme).png)
+![Alt text](assets/images/readme-images/Favicon-emoji-(Readme).png)
 
 * The logo is a weightlifting emoji
 * It will make it easier for the user to find the website when multible tabs are open
 
 
 ## Inspiration page
-![Alt text](assets/images/readme-images/Inspiration%20page%20(Readme).png)
+![Alt text](assets/images/readme-images/Inspiration-page-(Readme).png)
 
 * This section provides the user with several health and psychological benefits on why they should consider to start exercising
 * It also have a time table so that the user can see which classes and times are offered
@@ -66,7 +66,7 @@
 
 
 ## Sign up page
-![Alt text](assets/images/readme-images/Sign%20up%20page%20(Readme).png)
+![Alt text](assets/images/readme-images/Sign-up-page-(Readme).png)
 
 * In this section the user can fill out a form to become a member.
 * The user can use the text area if they have any questions.
@@ -74,13 +74,13 @@
 
 
 ## Contact page
-![Alt text](assets/images/readme-images/Contact%20page%20(Readme).png)
+![Alt text](assets/images/readme-images/Contact-page-(Readme).png)
 
 * Filling out the form successfully the user is directed to the contact page 
 
 
 ## 404 page
-![Alt text](assets/images/readme-images/404%20page%20(Readme).png)
+![Alt text](assets/images/readme-images/404-page-(Readme).png)
 
 * 404 page will show if the user navigates to a broken link
 * The user can easily navigate back the home page by clicking the link "Return to homepage!"
@@ -146,7 +146,7 @@
 
 * 4 errors found and fixed using [Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
 
-![Alt text](assets/images/readme-images/Css%20checker.png)
+![Alt text](assets/images/readme-images/Css-checker.png)
 
 
 ### HTML
@@ -154,27 +154,27 @@
 * Home page
   * 7 errors were found and fixed using [W3C VALIDATOR](https://validator.w3.org/)
 
-![Alt text](assets/images/readme-images/Home%20page%20Html%20checker.png)
+![Alt text](assets/images/readme-images/Inspiration-page-(Html-checker).png)
 
 * Inpiration page 
   * 12 errors were found and fixed using [W3C VALIDATOR](https://validator.w3.org/)
 
-![Alt text](assets/images/readme-images/Inspiration%20page%20(Html%20checker).png)
+![Alt text](assets/images/readme-images/Inspiration-page-(Html-checker).png)
 
 * Sign up page
   * 12 errors were found and fixed using [W3C VALIDATOR](https://validator.w3.org/)
 
-![Alt text](assets/images/readme-images/Sign%20up%20page%20(Html%20checker).png)
+![Alt text](assets/images/readme-images/Sign-up-page-(Html-checker).png)
 
 * Contact page
   * No errors were found using [W3C VALIDATOR](https://validator.w3.org/)
 
-![Alt text](assets/images/readme-images/Contact%20page%20(Html%20checker).png) 
+![Alt text](assets/images/readme-images/Contact-page-(Html-checker).png) 
 
 * 404 page
   *  No errors were found [W3C VALIDATOR](https://validator.w3.org/)
 
- ![Alt text](assets/images/readme-images/404%20page%20(Html%20checker).png) 
+ ![Alt text](assets/images/readme-images/404-page-(Html-checker).png) 
 
 
 ## Lighthouse testing
@@ -182,17 +182,17 @@
 
 ### Home Page
 
-![Alt text](assets/images/readme-images/Home%20page%20(Lighthouse).png)
+![Alt text](assets/images/readme-images/Home-page-(Lighthouse).png)
 
 
 ### Inspiration page
 
-![Alt text](assets/images/readme-images/Inspiration%20page%20(Lighthouse).png)
+![Alt text](assets/images/readme-images/Inspiration-page-(Lighthouse).png)
 
 
 ### Sign up page
 
-![Alt text](assets/images/readme-images/Sign%20up%20page%20(Lighthouse).png)
+![Alt text](assets/images/readme-images/Sign-up-page-(Lighthouse).png)
 
 
 ## Deployment
@@ -220,7 +220,7 @@
 * [Convertio](https://convertio.co/jpg-webp/) was used to convert images for higher score on 
   lighthouse
 * [W3schools](https://www.w3schools.com/) whas used to create boxshadow on inspiration page
-* "Love runnig" helped with getting the favicon in place
+* [Love runnig](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/?child=last) helped getting the favicon in place
 * [Brocode](https://www.youtube.com/watch?v=VQWu4e6agPc&list=WL&index=6&t=53s) used to create a dropdown menu
 * [Fontawesome](https://fontawesome.com/) was used for all fonts
 * [Am I responsive](https://ui.dev/amiresponsive) was used along with Google chrome devtools to see how the site looked on various devices
