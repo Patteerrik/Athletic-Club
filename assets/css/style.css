@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
 * {
     padding: 0;
     margin: 0;
@@ -63,7 +62,6 @@ nav {
 
 #nav {
     display: none;
-
 }
 
 .navclass {
@@ -83,13 +81,11 @@ main {
     background-color:white;
     flex: 1 0 auto;
     width: 100%;
-
     text-align: center;
     font-size: 1.2rem;
 }
 
 /* Footer */
-
 
 footer {
     background-color:#f8f5f2;
@@ -101,7 +97,6 @@ footer ul {
     margin-left:20px;
     justify-content:center;
     letter-spacing:20px;
-    
     padding: 4px;
     list-style-type: none;
 }
@@ -130,7 +125,6 @@ footer ul li a {
 
 /* Home page (index.html) */
 
-
 #about {
     font-size: 20px;
     margin-top: 1rem;
@@ -147,8 +141,7 @@ footer ul li a {
 
 #timetable {
     padding-bottom:1rem;
-        
-    }
+}
 
 /* Inspiration page (member.html) */
 
@@ -167,7 +160,7 @@ table, th, td {
 }
 
 tr:nth-child(even) {
-    background-color:#cee1f2
+    background-color:#cee1f2;
 }
 
 div h3 {
@@ -255,7 +248,6 @@ p {
 
 /* Styling the sign up form */
 
-
 input {
     display: flex;
     padding: 4px;
@@ -295,9 +287,7 @@ input {
 .contact {
     margin-top:2rem;
     background-color:#f8f5f2;
-    padding-top:20px
-    
-    
+    padding-top:20px;
 }
 
 .contact p {
@@ -310,7 +300,6 @@ input {
 /* 404 page */
 
 .notexist {
-
     text-align: center;
     line-height: 4rem;
     margin-top:4rem;
@@ -319,57 +308,54 @@ input {
 }
 
 .notexist h1 {
-
-    color:black
+    color:black;
 }  
 
 .notexist h2 {
-
-    color:#48484b
+    color:#48484b;
 }  
 
 .notfound {
-
-      text-align: center;
+    text-align: center;
 }
 
 /* For smaller to medium screen sizes from 768px width and up */
 
 @media screen and (min-width: 768px) {
 
-    /* Header title */
+/* Header title */
 
-    #title {
-        font-size: 2.3rem;
-        margin-left: 5px;
+#title {
+    font-size: 2.3rem;
+    margin-left: 5px;
 }
     
-    /* Adding a line under nav buttons */
+/* Adding a line under nav buttons */
 
 .active {
-        border-bottom: 2px solid rgba(128, 0, 128, 0.862);
+    border-bottom: 2px solid rgba(128, 0, 128, 0.862);
 }
 
 /* Header */
 
 nav {
-        display: block;
-        position: relative;
-        width: fit-content;
-        padding-left: 280px;
+    display: block;
+    position: relative;
+    width: fit-content;
+    padding-left: 280px;
 }
 
    .home {
-        display: flex;
-        font-size: 1.2rem;
+    display: flex;
+    font-size: 1.2rem;
 
 }
 
 .home a {
-        letter-spacing: 1px;
-        display: flex;
-        font-size: 1.2rem;
-        margin-right: 10px;
+    letter-spacing: 1px;
+    display: flex;
+    font-size: 1.2rem;
+    margin-right: 10px;
 }
 
 .navclass {
@@ -385,10 +371,10 @@ img {
 /* Footer */
 
 #socials   {
-        font-size:2rem;
-        letter-spacing:4rem;
-        text-align:center;
-        padding-left:3rem;
+    font-size:2rem;
+    letter-spacing:4rem;
+    text-align:center;
+    padding-left:3rem;
 }
 
 
@@ -396,43 +382,41 @@ img {
 
 
 #about {
-        
-        font-size: 20px;
+    font-size: 20px;
 }
 
 .info {
-        
-        width: fit-content;
-        line-height: 50px;
-        margin-left: 3px;
-        margin-right: 5px;
-        padding: 1rem;
-        font-size: 1.3rem;
+    width: fit-content;
+    line-height: 50px;
+    margin-left: 3px;
+    margin-right: 5px;
+    padding: 1rem;
+    font-size: 1.3rem;
 }
 
 /* opening hours text */
 
     #information {
-        display: flex;
-        justify-content:space-around;
+    display: flex;
+    justify-content:space-around;
 }
 
 #hours h3 {
-        padding-left:10px
+    padding-left:10px;
 }
 
 #adress h3{
-        padding-right:60px;
+    padding-right:60px;
 }
 
 #hours p{
-        text-align:start;
-        padding-left:20px
+    text-align:start;
+    padding-left:20px;
 }
 
 #adress p{
-        padding-right:20px;
-        text-align:start;
+    padding-right:20px;
+    text-align:start;
 }
 
 /* Inspiration page (member.html) */
@@ -453,9 +437,6 @@ table, td{
     padding-bottom:3rem;
 }
     
-   
-
-
 div h3 {
     text-align:center;
 }
@@ -466,7 +447,6 @@ div h3 {
 }
  
 .mood {
-         
     width: 80%;
     line-height: 20px;
     margin: auto;
@@ -476,9 +456,7 @@ div h3 {
     text-align: center;
 }
  
- 
 .confident {
-         
     width: 80%;
     line-height: 20px;
     margin: auto;
@@ -489,7 +467,6 @@ div h3 {
 }
  
 .health {
-         
     width: 80%;
     line-height: 20px;
     margin: auto;
@@ -497,11 +474,9 @@ div h3 {
     font-size: 1.3rem;
     color: black;
     text-align: center;
- 
 }
  
 .strong {
-         
     width: 80%;
     line-height: 20px;
     margin: auto;
@@ -539,8 +514,6 @@ input {
     line-height: 4rem;
 }
 
-
-
 .button {
     width: 6rem;
     height: 2rem;
@@ -572,7 +545,6 @@ input {
     padding:7rem;
     line-height:6rem;
 }
-    
 }
 
 /* For medium screen sizes from 992px width and up */
