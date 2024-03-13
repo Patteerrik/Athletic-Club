@@ -1,7 +1,7 @@
 # Athletic Club
 
 
-![Alt text](assets/images/readme-images/Am-I-responsive-(Readme).png)
+![Alt text](assets/images/readme-images/Am_I_responsive_(Readme).png)
 
 * Athletic Club is a gym site that provides membership and seminars. The site gives the user a brief explanation of who they are and what they offer. It aims to help potential members reach their goals
 * This site is for anyone who wants to improve their physique and overall health
@@ -231,3 +231,6 @@
   * John, Roman and Sean from Code institute 
 
 
+
+
+[def]: assets/images/readme-images/Am_I_responsive_(Readme).png
